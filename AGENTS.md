@@ -22,17 +22,19 @@ The stories use invented names: `acme/widgets`, `acme/gadgets`, `octocat`,
 
 ## Publishing a run
 
-`npm run screenshots` commits here and does not push. It lists the images the
-run added or changed.
+`npm run screenshots` in bb-plugins writes the images here and lists the
+ones it added or changed. It does not commit, so everything is still only in
+the working tree while it is checked.
 
 1. Open each listed image and read all of it, including the story's label and
    hint beside the frame, and text that is cut off or small.
-2. If every one is clean, push: `git push`.
-3. If one is not, do not push. Drop the commit with `git reset --hard HEAD~1`,
-   fix the fixture in bb-plugins, commit that there, and run
-   `npm run screenshots` again.
+2. If every one is clean, run `npm run screenshots:commit` in bb-plugins. It
+   commits here with a message naming the bb-plugins commit, and pushes.
+3. If one is not, throw the capture away with `git checkout -- . && git clean
+   -fd` here, fix the fixture in bb-plugins, commit that there, and capture
+   again. Nothing was committed, so there is no history to undo.
 
-A run that says "Captured with uncommitted changes" in its message took
+A commit that says "Captured with uncommitted changes" in its message holds
 pictures of work that is not committed in bb-plugins yet, possibly from
 another thread. Screen those images the same way. They are no safer for
 being unfinished.
