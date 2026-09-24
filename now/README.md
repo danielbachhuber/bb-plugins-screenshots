@@ -12,6 +12,12 @@ Source: [`bb-plugin-now`](https://github.com/danielbachhuber/bb-plugins/tree/mai
 
 ![Default](item-list--default.png)
 
+### Sections
+
+The other two sections, and a section narrowed to one source.
+
+![Sections](item-list--sections.png)
+
 ### States
 
 ![States](item-list--states.png)
