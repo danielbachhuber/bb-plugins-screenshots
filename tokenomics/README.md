@@ -26,6 +26,12 @@ The past day with a busy hour hovered, so its tooltip shows.
 
 ![Past week](page--past-week.png)
 
+### All threads
+
+Every thread listed, so archived rows sit among active ones.
+
+![All threads](page--all-threads.png)
+
 ### Empty
 
 ![Empty](page--empty.png)
