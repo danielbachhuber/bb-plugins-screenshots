@@ -22,12 +22,14 @@ The stories use invented names: `acme/widgets`, `acme/gadgets`, `octocat`,
 
 ## Publishing a run
 
-`npm run screenshots` in bb-plugins writes the images here and lists the
-ones it added or changed. It does not commit, so everything is still only in
+`npm run screenshots` in bb-plugins writes the images and READMEs here and
+lists the files it added or changed. It does not commit, so everything is still only in
 the working tree while it is checked.
 
 1. Open each listed image and read all of it, including the story's label and
    hint beside the frame, and text that is cut off or small.
+   Read each listed README too: its captions come from the comments above
+   the stories.
 2. If every one is clean, run `npm run screenshots:commit` in bb-plugins. It
    commits here with a message naming the bb-plugins commit, and pushes.
 3. If one is not, throw the capture away with `git checkout -- . && git clean
@@ -41,6 +43,7 @@ being unfinished.
 
 ## Nothing here is edited by hand
 
-The script writes every image and removes the images of stories that no
-longer exist. Fix a picture by fixing its story in bb-plugins, never by
-editing, adding, or deleting files here.
+The script writes every image and README and removes the images of stories
+that no longer exist. Fix a picture or a caption by fixing its story in
+bb-plugins, and a plugin's description by fixing its `bb.description`, never
+by editing, adding, or deleting files here.
