@@ -16,4 +16,5 @@ git log -p --follow review-sweep/review-list--baseline.png
 
 Nothing here is edited by hand. `npm run screenshots` in bb-plugins writes
 every file, removes the images of stories that no longer exist, and commits
-only when something looks different.
+only when something looks different. It does not push: each changed image is
+checked for private information first, as AGENTS.md describes.
