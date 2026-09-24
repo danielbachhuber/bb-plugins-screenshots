@@ -76,7 +76,7 @@ A conflicted bump: the rebase is the main button, and it asks before running.
 
 ### Dependabot after
 
-After "Post, approve, and merge": the row is done and the panel shows the draft as posted.
+After "Post, approve, and merge": with nothing left open, the list above the composer collapses to its header, and the × there hides it. The panel shows the draft as posted.
 
 ![Dependabot after](thread--dependabot-after.png)
 
