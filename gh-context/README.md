@@ -2,7 +2,7 @@
 
 # GitHub Context
 
-A banner above the composer showing the thread's pull request, the GitHub issues it works on, its changes, and a Harvest timer, in place of bb's own.
+A banner above the composer showing the thread's pull request and its reviewers, the GitHub issues it works on, its changes, and a Harvest timer, in place of bb's own.
 
 Source: [`bb-plugin-gh-context`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-gh-context)
 
@@ -23,3 +23,9 @@ Source: [`bb-plugin-gh-context`](https://github.com/danielbachhuber/bb-plugins/t
 ### Review states
 
 ![Review states](banner--review-states.png)
+
+### Reviewers
+
+The pull request's reviewers, right after it: each avatar carries a badge for where that review stands. Hovering lists them in words.
+
+![Reviewers](banner--reviewers.png)
