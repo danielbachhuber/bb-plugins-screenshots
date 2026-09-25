@@ -15,7 +15,7 @@ small history while the visual history is still available.
 | [Now](now/README.md) | One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue and Google Docs comments per document. | 3 stories |
 | [Review Sweep](review-sweep/README.md) | Open pull requests waiting on a review from you, oldest request first. | 3 stories |
 | [Thread Overview](thread-overview/README.md) | A band under each thread's header saying what the thread is for, what has been done so far, and which step it is on, written by the agent as it works and edited by you in place. | 1 story |
-| [Tokenomics](tokenomics/README.md) | Graphs how many tokens your threads used over the past day, three days, or week, lists each thread's share, and puts a sparkline of each thread's token use over time in its header that opens a summary of which of your messages used the most. | 9 stories |
+| [Tokenomics](tokenomics/README.md) | Graphs how many tokens your threads used over the past day, three days, or week, lists each thread's share, and puts a sparkline of each thread's token use over time in its header that opens a summary of which of your messages used the most. | 10 stories |
 
 Each directory is a plugin, named for the first part of its story titles.
 Its README describes the plugin and shows each story, in the light theme,

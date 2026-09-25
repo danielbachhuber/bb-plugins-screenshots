@@ -26,11 +26,17 @@ The past day with a busy hour hovered, so its tooltip shows.
 
 ![Past week](page--past-week.png)
 
-### All threads
+### Recently active threads
 
-Every thread listed, so archived rows sit among active ones.
+Threads archived in the past three days, dimmed and labeled Archived.
 
-![All threads](page--all-threads.png)
+![Recently active threads](page--recently-active-threads.png)
+
+### Older threads
+
+Over the past week, a thread archived more than three days ago lists under Older.
+
+![Older threads](page--older-threads.png)
 
 ### Empty
 
