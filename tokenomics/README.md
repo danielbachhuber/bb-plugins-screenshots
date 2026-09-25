@@ -26,11 +26,11 @@ The past day with a busy hour hovered, so its tooltip shows.
 
 ![Past week](page--past-week.png)
 
-### Recently active threads
+### Recent threads
 
 Threads archived in the past three days, dimmed and labeled Archived.
 
-![Recently active threads](page--recently-active-threads.png)
+![Recent threads](page--recent-threads.png)
 
 ### Older threads
 
