@@ -26,6 +26,6 @@ Source: [`bb-plugin-gh-context`](https://github.com/danielbachhuber/bb-plugins/t
 
 ### Reviewers
 
-The pull request's reviewers, right after it: each avatar carries a badge for where that review stands. Hovering lists them in words.
+The pull request's reviewers, right after it: each avatar carries a badge for where that review stands. Hovering an avatar names the reviewer and their review.
 
 ![Reviewers](banner--reviewers.png)
