@@ -14,7 +14,7 @@ Source: [`bb-plugin-now`](https://github.com/danielbachhuber/bb-plugins/tree/mai
 
 ### Sections
 
-The other two sections, each source on its own, and every section stacked.
+Anytime, each source on its own, and both sections stacked.
 
 ![Sections](item-list--sections.png)
 
