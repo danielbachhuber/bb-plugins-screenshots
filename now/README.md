@@ -26,6 +26,6 @@ Anytime, each source on its own, and both sections stacked.
 
 ### Default
 
-The counts beside Now in the sidebar: the inbox in a red circle, then the rest of the Now section.
+The counts beside Now in the sidebar: what needs a decision in a red circle, then the Gmail inbox plus the tasks overdue or due today.
 
 ![Default](sidebar-counts--default.png)
