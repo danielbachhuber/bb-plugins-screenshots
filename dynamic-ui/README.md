@@ -26,6 +26,12 @@ A row clicked: the side panel shows that issue with its details and every button
 
 ![Triage confirm command](thread--triage-confirm-command.png)
 
+### Triage one done
+
+One issue closed: it moves to the bottom, under the two still open.
+
+![Triage one done](thread--triage-one-done.png)
+
 ### Triage after
 
 After acting: one closed, one opened as a thread, one dismissed.
