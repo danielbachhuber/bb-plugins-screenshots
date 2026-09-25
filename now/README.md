@@ -21,3 +21,11 @@ Anytime, each source on its own, and both sections stacked.
 ### States
 
 ![States](item-list--states.png)
+
+## Sidebar counts
+
+### Default
+
+The counts beside Now in the sidebar: the inbox in a red circle, then the rest of the Now section.
+
+![Default](sidebar-counts--default.png)
