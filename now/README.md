@@ -2,7 +2,7 @@
 
 # Now
 
-One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue and Google Docs comments per document. Complete tasks, archive email, answer calendar invitations, reply on GitHub, merge your own pull requests, and start a thread from any row.
+One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue and Google Docs comments per document. Complete tasks, archive email or mark it read, answer calendar invitations, reply on GitHub, merge your own pull requests, and start a thread from any row.
 
 Source: [`bb-plugin-now`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-now)
 
