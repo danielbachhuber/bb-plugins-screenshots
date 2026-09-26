@@ -30,6 +30,18 @@ The menu Postpone opens on a recurring task: quick picks counted from its date, 
 
 ![Open](postpone-menu--open.png)
 
+### Overdue date
+
+On a one-off task whose due date has passed, Postpone moves that date and keeps its time. Today comes first, since the date has passed.
+
+![Overdue date](postpone-menu--overdue-date.png)
+
+### Past deadline
+
+On a task with no due date and a deadline that has passed, Postpone moves the deadline.
+
+![Past deadline](postpone-menu--past-deadline.png)
+
 ## Sidebar counts
 
 ### Default

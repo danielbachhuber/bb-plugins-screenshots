@@ -12,7 +12,7 @@ small history while the visual history is still available.
 | --- | --- | --- |
 | [Dynamic UI](dynamic-ui/README.md) | Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. | 25 stories |
 | [GitHub Context](gh-context/README.md) | A banner above the composer showing the thread's pull request and its reviewers, the GitHub issues it works on, its changes, and a Harvest timer, in place of bb's own. | 5 stories |
-| [Now](now/README.md) | One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. | 5 stories |
+| [Now](now/README.md) | One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. | 7 stories |
 | [Review Sweep](review-sweep/README.md) | Open pull requests waiting on a review from you, oldest request first. | 3 stories |
 | [Thread Overview](thread-overview/README.md) | A band under each thread's header saying what the thread is for, what has been done so far, and which step it is on, written by the agent as it works and edited by you in place. | 1 story |
 | [Tokenomics](tokenomics/README.md) | Graphs how many tokens your threads used over the past day, three days, or week, lists each thread's share, and puts a sparkline of each thread's token use over time in its header that opens a summary of which of your messages used the most. | 10 stories |
