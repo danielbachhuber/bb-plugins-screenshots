@@ -2,7 +2,7 @@
 
 # Dynamic UI
 
-Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. A visual review shows screenshots of a UI's original and its variations, for you to pick one and note on each.
+Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. A list view instead shows everything in the side panel as one list, with quick decisions such as Add and Skip on each row and the names to add editable. A visual review shows screenshots of a UI's original and its variations, for you to pick one and note on each.
 
 Source: [`bb-plugin-dynamic-ui`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-dynamic-ui)
 
@@ -43,6 +43,18 @@ After acting: one closed, one opened as a thread, one dismissed.
 A command that failed: the row says so, and the panel shows the output.
 
 ![Triage failed](thread--triage-failed.png)
+
+### Staples
+
+A list view: one row above the composer previewing what is left and what is on the list, and the whole view in the side panel, each staple's name in a field to edit before Add.
+
+![Staples](thread--staples.png)
+
+### Staples after
+
+After deciding: Oat milk added and moved into the list, Bananas skipped with Undo, and Brown rice failed with its error, ready to retry.
+
+![Staples after](thread--staples-after.png)
 
 ### Self improve
 
@@ -159,3 +171,27 @@ A command that failed leaves the entry open with the output on it.
 An action in flight.
 
 ![Working](view--working.png)
+
+### List fresh
+
+A list view: the staples to add on top as dashed rows, each name editable before Add, with Skip; the list as it stands below.
+
+![List fresh](view--list-fresh.png)
+
+### List working
+
+Add running on one row.
+
+![List working](view--list-working.png)
+
+### List after
+
+Added moves a row into the list as the name was sent, here edited to say how many, tagged with its button's done label; Skip strikes it through with Undo; a failure shows its error and keeps the buttons.
+
+![List after](view--list-after.png)
+
+### List confirm
+
+A command that asks first shows it under its row, with Run and Cancel.
+
+![List confirm](view--list-confirm.png)
