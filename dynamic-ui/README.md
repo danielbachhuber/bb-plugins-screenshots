@@ -195,3 +195,21 @@ Added moves a row into the list as the name was sent, here edited to say how man
 A command that asks first shows it under its row, with Run and Cancel.
 
 ![List confirm](view--list-confirm.png)
+
+### Text draft
+
+A one-line field beside five product buttons: type a product of your own and press Use this, or Enter.
+
+![Text draft](view--text-draft.png)
+
+### Text draft question
+
+A question card whose answer is the main button, with a product button in case one fits.
+
+![Text draft question](view--text-draft-question.png)
+
+### Text draft sent
+
+After the answer is sent: the field shows it, greyed, and the banner repeats it.
+
+![Text draft sent](view--text-draft-sent.png)
