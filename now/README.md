@@ -2,9 +2,29 @@
 
 # Now
 
-One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. Complete, rename, reschedule, postpone, reprioritize, move, or delete tasks, archive email or mark it read, answer calendar invitations, reply on GitHub, merge your own pull requests, and start a thread from any row.
+One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. Complete, rename, reschedule, postpone, reprioritize, move, or delete tasks, read an email in full beside the list, archive email or mark it read, answer calendar invitations, reply on GitHub, merge your own pull requests, and start a thread from any row.
 
 Source: [`bb-plugin-now`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-now)
+
+## Email reader
+
+### Newsletter
+
+Read on a newsletter opens it in the Email tab beside the list, laid out as its sender wrote it, and marks it read. The row being read is highlighted.
+
+![Newsletter](email-reader--newsletter.png)
+
+### Conversation
+
+A thread of several messages shows the latest open and the earlier ones one line each, which open when clicked.
+
+![Conversation](email-reader--conversation.png)
+
+### Empty
+
+The Email tab before Read has opened anything in it.
+
+![Empty](email-reader--empty.png)
 
 ## Item list
 
