@@ -10,7 +10,7 @@ Source: [`bb-plugin-now`](https://github.com/danielbachhuber/bb-plugins/tree/mai
 
 ### Newsletter
 
-Read on a newsletter opens it in the Email tab beside the list, laid out as its sender wrote it, and marks it read. The row being read is highlighted.
+Open on a newsletter opens it in the Email tab beside the list, laid out as its sender wrote it, and marks it read. The row being read is highlighted.
 
 ![Newsletter](email-reader--newsletter.png)
 
@@ -22,7 +22,7 @@ A thread of several messages shows the latest open and the earlier ones one line
 
 ### Empty
 
-The Email tab before Read has opened anything in it.
+The Email tab before any email is opened in it.
 
 ![Empty](email-reader--empty.png)
 
