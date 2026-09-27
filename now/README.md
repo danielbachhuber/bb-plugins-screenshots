@@ -66,6 +66,6 @@ On a task with no due date and a deadline that has passed, Postpone moves the de
 
 ### Default
 
-The counts beside Now in the sidebar: what needs a decision in a red circle, then every row in the Now section, as its tab counts them.
+The counts beside Now in the sidebar: what needs a decision or is overdue in a red circle, then every row in the Now section, as its tab counts them.
 
 ![Default](sidebar-counts--default.png)
