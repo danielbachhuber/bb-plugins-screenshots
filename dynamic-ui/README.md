@@ -2,7 +2,7 @@
 
 # Dynamic UI
 
-Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. A list view instead shows everything in the side panel as one list, with quick decisions such as Add and Skip on each row and the names to add editable. A visual review shows screenshots of a UI's original and its variations, for you to pick one and note on each. Work that goes in rounds, such as sections of a document, shows a status the agent sets, a count of what is complete, and each item's history, and stays open until the agent marks it complete.
+Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. A list view instead shows everything in the side panel as one list, with quick decisions such as Add and Skip on each row and the names to add editable. A visual review shows screenshots of a UI's original and its variations, for you to pick one and note on each. An item about a change shows it: a pull request's files in bb's diff view, a lockfile as the packages whose versions changed, or a section's new text beside the old with the changed words marked. Work that goes in rounds, such as sections of a document, shows a status the agent sets, a count of what is complete, and each item's history, and stays open until the agent marks it complete.
 
 Source: [`bb-plugin-dynamic-ui`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-dynamic-ui)
 
@@ -231,3 +231,39 @@ A section worked in rounds: its status set by the agent beside its badges, and i
 Revise pressed: the banner says it was sent, until the agent publishes the next round.
 
 ![Status just revised](view--status-just-revised.png)
+
+### Changes files
+
+A pull request's files: package.json's diff in bb's own diff view, and the lockfile as the packages whose versions changed, the zod downgrade package.json doesn't explain flagged.
+
+![Changes files](view--changes-files.png)
+
+### Changes raw lockfile
+
+The lockfile's raw diff, one click from its packages, here split side by side.
+
+![Changes raw lockfile](view--changes-raw-lockfile.png)
+
+### Changes code review
+
+A code review finding: the hunk it is about, above the comment to post.
+
+![Changes code review](view--changes-code-review.png)
+
+### Changes prose
+
+A section's proposed text against the application: each line beside what it replaced, the changed words marked.
+
+![Changes prose](view--changes-prose.png)
+
+### Changes prose split
+
+The same change split side by side: before on the left, after on the right.
+
+![Changes prose split](view--changes-prose-split.png)
+
+### Changes prose edit
+
+Edit: the proposed text as source, in place of the diff. Accept and Revise send it as left here.
+
+![Changes prose edit](view--changes-prose-edit.png)
