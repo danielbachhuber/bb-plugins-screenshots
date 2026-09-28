@@ -2,7 +2,7 @@
 
 # Dynamic UI
 
-Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. A list view instead shows everything in the side panel as one list, with quick decisions such as Add and Skip on each row and the names to add editable. A visual review shows screenshots of a UI's original and its variations, for you to pick one and note on each. An item about a change shows it: a pull request's files in bb's diff view, a lockfile as the packages whose versions changed, or a section's new text beside the old with the changed words marked, each claim in it numbered and footnoted with the quotes that back it and whether they fully support it. Work that goes in rounds, such as sections of a document, shows a status the agent sets, a count of what is complete, each item's history and budget, supporting notes to add, a map of the pages the items fill, and a field for your push-back, and stays open until the agent marks it complete.
+Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. A list view instead shows everything in the side panel as one list, with quick decisions such as Add and Skip on each row and the names to add editable. A visual review shows screenshots of a UI's original and its variations, for you to pick one and note on each. An item about a change shows it: a pull request's files in bb's diff view, a lockfile as the packages whose versions changed, or a section's new text beside the old with the changed words marked, each claim in it numbered and footnoted with the quotes that back it and whether they fully support it. Work that goes in rounds, such as sections of a document, shows a status the agent sets, a count of what is complete, each item's history and budget, supporting notes to add, a map of the pages the items fill, and a field for your push-back, and stays open until the agent marks it complete. An item can also show in another thread, such as the one drafting that section with you, with its push-back going there.
 
 Source: [`bb-plugin-dynamic-ui`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-dynamic-ui)
 
@@ -122,6 +122,18 @@ A piece of work in rounds: the header counts what the agent marked complete, and
 
 ![Grant](thread--grant.png)
 
+### Grant section threads
+
+Each section worked in a thread of its own: in the thread that published the view, a row's Open thread goes to that section's thread, and the side panel keeps the page map.
+
+![Grant section threads](thread--grant-section-threads.png)
+
+### Grant section own thread
+
+The Need section's own thread: the same card above its composer and in its side panel, from the view the other thread published. Revise and the note stay here; Accept goes back.
+
+![Grant section own thread](thread--grant-section-own-thread.png)
+
 ## View
 
 ### Nothing picked
@@ -231,6 +243,24 @@ A section worked in rounds: its status set by the agent beside its badges, and i
 Revise pressed: the banner says it was sent, until the agent publishes the next round.
 
 ![Status just revised](view--status-just-revised.png)
+
+### Section thread coordinator
+
+A section drafted in a thread of its own, opened in the thread that published the view: Open, named for the section's thread, takes the place of Start thread.
+
+![Section thread coordinator](view--section-thread-coordinator.png)
+
+### Section thread own copy
+
+The same section in its own thread: only its card, from the same view, without the page map. Revise stays here; Accept goes back to the thread that writes the application.
+
+![Section thread own copy](view--section-thread-own-copy.png)
+
+### Section thread archived
+
+The section's thread archived: its Open button says so, and Revise failing says what to do.
+
+![Section thread archived](view--section-thread-archived.png)
 
 ### Changes files
 
