@@ -2,7 +2,7 @@
 
 # Dynamic UI
 
-Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. A list view instead shows everything in the side panel as one list, with quick decisions such as Add and Skip on each row and the names to add editable. A visual review shows screenshots of a UI's original and its variations, for you to pick one and note on each. An item about a change shows it: a pull request's files in bb's diff view, a lockfile as the packages whose versions changed, or a section's new text beside the old with the changed words marked. Work that goes in rounds, such as sections of a document, shows a status the agent sets, a count of what is complete, each item's history and budget, supporting notes to add, a map of the pages the items fill, and a field for your push-back, and stays open until the agent marks it complete.
+Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. A list view instead shows everything in the side panel as one list, with quick decisions such as Add and Skip on each row and the names to add editable. A visual review shows screenshots of a UI's original and its variations, for you to pick one and note on each. An item about a change shows it: a pull request's files in bb's diff view, a lockfile as the packages whose versions changed, or a section's new text beside the old with the changed words marked, each claim in it numbered and footnoted with the quotes that back it and whether they fully support it. Work that goes in rounds, such as sections of a document, shows a status the agent sets, a count of what is complete, each item's history and budget, supporting notes to add, a map of the pages the items fill, and a field for your push-back, and stays open until the agent marks it complete.
 
 Source: [`bb-plugin-dynamic-ui`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-dynamic-ui)
 
@@ -279,3 +279,21 @@ Work that fills pages: the map at the top sizes each section by its word limit a
 Add pressed on a related note: it says so until the agent publishes again and marks the note used.
 
 ![Related just added](view--related-just-added.png)
+
+### Evidence
+
+Each claim in the proposed text numbered and underlined by how well it is supported; the Evidence card under the changes quotes the sources for each, with any doubt beside it.
+
+![Evidence](view--evidence.png)
+
+### Evidence edited
+
+"212 open issues" edited to "About 200" before Revise: that claim no longer matches the text, so its evidence moves to the bottom of the card rather than being lost.
+
+![Evidence edited](view--evidence-edited.png)
+
+### Evidence split
+
+The same claims marked on the right side of the split view.
+
+![Evidence split](view--evidence-split.png)
