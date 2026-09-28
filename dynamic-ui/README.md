@@ -2,7 +2,7 @@
 
 # Dynamic UI
 
-Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. A list view instead shows everything in the side panel as one list, with quick decisions such as Add and Skip on each row and the names to add editable. A visual review shows screenshots of a UI's original and its variations, for you to pick one and note on each. An item about a change shows it: a pull request's files in bb's diff view, a lockfile as the packages whose versions changed, or a section's new text beside the old with the changed words marked. Work that goes in rounds, such as sections of a document, shows a status the agent sets, a count of what is complete, each item's history, and a field for your push-back, and stays open until the agent marks it complete.
+Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. A list view instead shows everything in the side panel as one list, with quick decisions such as Add and Skip on each row and the names to add editable. A visual review shows screenshots of a UI's original and its variations, for you to pick one and note on each. An item about a change shows it: a pull request's files in bb's diff view, a lockfile as the packages whose versions changed, or a section's new text beside the old with the changed words marked. Work that goes in rounds, such as sections of a document, shows a status the agent sets, a count of what is complete, each item's history and budget, supporting notes to add, a map of the pages the items fill, and a field for your push-back, and stays open until the agent marks it complete.
 
 Source: [`bb-plugin-dynamic-ui`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-dynamic-ui)
 
@@ -267,3 +267,15 @@ The same change split side by side: before on the left, after on the right.
 Edit: the proposed text as source, in place of the diff. Accept and Revise send it as left here.
 
 ![Changes prose edit](view--changes-prose-edit.png)
+
+### Map and related
+
+Work that fills pages: the map at the top sizes each section by its word limit and fills it by its count, Approach red for running over; under the section, notes from the release history to add, one already used.
+
+![Map and related](view--map-and-related.png)
+
+### Related just added
+
+Add pressed on a related note: it says so until the agent publishes again and marks the note used.
+
+![Related just added](view--related-just-added.png)
