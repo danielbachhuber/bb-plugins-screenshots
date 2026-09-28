@@ -2,7 +2,7 @@
 
 # Dynamic UI
 
-Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. A list view instead shows everything in the side panel as one list, with quick decisions such as Add and Skip on each row and the names to add editable. A visual review shows screenshots of a UI's original and its variations, for you to pick one and note on each.
+Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. A list view instead shows everything in the side panel as one list, with quick decisions such as Add and Skip on each row and the names to add editable. A visual review shows screenshots of a UI's original and its variations, for you to pick one and note on each. Work that goes in rounds, such as sections of a document, shows a status the agent sets, a count of what is complete, and each item's history, and stays open until the agent marks it complete.
 
 Source: [`bb-plugin-dynamic-ui`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-dynamic-ui)
 
@@ -116,6 +116,12 @@ After sending: the pick and notes stay as what was sent, and the row says which 
 
 ![Visual review sent](thread--visual-review-sent.png)
 
+### Grant
+
+A piece of work in rounds: the header counts what the agent marked complete, and each row shows the status it set.
+
+![Grant](thread--grant.png)
+
 ## View
 
 ### Nothing picked
@@ -213,3 +219,15 @@ A question card whose answer is the main button, with a product button in case o
 After the answer is sent: the field shows it, greyed, and the banner repeats it.
 
 ![Text draft sent](view--text-draft-sent.png)
+
+### Status rounds
+
+A section worked in rounds: its status set by the agent beside its badges, and its history under the summary. Its buttons stay usable until the agent marks it complete.
+
+![Status rounds](view--status-rounds.png)
+
+### Status just revised
+
+Revise pressed: the banner says it was sent, until the agent publishes the next round.
+
+![Status just revised](view--status-just-revised.png)

@@ -10,7 +10,7 @@ small history while the visual history is still available.
 
 | Plugin | What it does | Screenshots |
 | --- | --- | --- |
-| [Dynamic UI](dynamic-ui/README.md) | Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. | 34 stories |
+| [Dynamic UI](dynamic-ui/README.md) | Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. | 37 stories |
 | [GitHub Context](gh-context/README.md) | A banner above the composer showing the thread's pull request and its reviewers, the GitHub issues it works on, its changes, and a Harvest timer, in place of bb's own. | 5 stories |
 | [Now](now/README.md) | One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. | 10 stories |
 | [Plugin Shelf](plugin-shelf/README.md) | Lists the plugins in your bb-plugins checkout as published and current, published with commits not yet released (with those commits), or personal, on a My plugins page in bb's Plugins screen, and starts a thread to publish an update. | 4 stories |
