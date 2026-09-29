@@ -2,7 +2,7 @@
 
 # Now
 
-One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. Overdue tasks, and mail left in the inbox more than two days, are tinted red and say how late they are. Todoist descriptions render as Markdown, with open subtasks listed beneath. Complete, rename, reschedule, postpone, reprioritize, move, or delete tasks, read an email in full beside the list, archive email or mark it read, answer calendar invitations, reply on GitHub, merge your own pull requests, and start a thread from any row.
+One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. Overdue tasks, and mail left in the inbox more than two days, are tinted red and say how late they are. A square per row above the list shows how Now splits into what needs a decision, overdue, due today, read mail, and later, and pressing a run shows only its rows. Todoist descriptions render as Markdown, with open subtasks listed beneath. Complete, rename, reschedule, postpone, reprioritize, move, or delete tasks, read an email in full beside the list, archive email or mark it read, answer calendar invitations, reply on GitHub, merge your own pull requests, and start a thread from any row.
 
 Source: [`bb-plugin-now`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-now)
 
@@ -31,6 +31,12 @@ The Email tab before any email is opened in it.
 ### Default
 
 ![Default](item-list--default.png)
+
+### Filtered to a run
+
+Pressing a run of squares under the toggles shows only its rows: here, the overdue ones.
+
+![Filtered to a run](item-list--filtered-to-a-run.png)
 
 ### Sections
 
