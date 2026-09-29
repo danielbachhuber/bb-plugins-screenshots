@@ -22,6 +22,6 @@ Pressing a run's squares leaves only its rows, and every Later row in it shows.
 
 ### Custom body
 
-A row body the plugin draws itself: the title line keeps its icon, number, and age, with a red or green banner under it.
+A row body the plugin draws itself: the title line keeps its icon, number, and age, with a red, green, or blue banner under it.
 
 ![Custom body](sweep-list--custom-body.png)

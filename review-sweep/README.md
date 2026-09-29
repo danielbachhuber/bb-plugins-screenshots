@@ -10,13 +10,13 @@ Source: [`bb-plugin-review-sweep`](https://github.com/danielbachhuber/bb-plugins
 
 ### Baseline
 
-A typical day. The one waited on too long and the one with a thread are open at the top; the fresh request, with two new comments, is closed to its number line.
+A typical day. The one waited on too long, with its red banner, and the one with a thread are open at the top; the fresh request, with two new comments, is closed to its icons: author, reviewers, checks, and size.
 
 ![Baseline](review-list--baseline.png)
 
 ### Rows
 
-Every run the list can draw: re-review, waiting too long, and reviewing in Now; to review in Next; drafts and ignored in Later. Then the list across two repositories, a thread being started with a timer running, and the panel without Harvest.
+Every run the list can draw: re-review, with its blue banner, waiting too long, and reviewing in Now; to review in Next; drafts and ignored in Later, each one line with its icons inline. Then the list across two repositories, a thread being started with a timer running, and the panel without Harvest.
 
 ![Rows](review-list--rows.png)
 
