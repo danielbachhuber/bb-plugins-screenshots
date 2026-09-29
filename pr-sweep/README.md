@@ -10,13 +10,13 @@ Source: [`bb-plugin-pr-sweep`](https://github.com/danielbachhuber/bb-plugins/tre
 
 ### Baseline
 
-A typical day. The pull requests that need you, the one ready to merge, and the one with a thread are open at the top; the draft is closed to its number line; the one awaiting review is a single dimmed line.
+A typical day. The pull requests that need you, the one ready to merge, and the one with a thread are open at the top, each with a red banner naming what stops it or a green one when it can merge; the draft is closed to its banner and icons; the one awaiting review is a single dimmed line.
 
 ![Baseline](pr-list--baseline.png)
 
 ### Rows
 
-Every run the list can draw: needs you, ready to merge, and working in Now; drafts in Next; waiting in Later, including one stale after six days with its reviewer. Then every flag as a problem on the number line, the list across two repositories, a thread being started with a timer running, and the panel without Harvest.
+Every run the list can draw: needs you, ready to merge, and working in Now; drafts in Next; waiting in Later, including one stale after six days with its reviewer. Then every flag in the banner and on the track, the list across two repositories, a thread being started with a timer running, and the panel without Harvest.
 
 ![Rows](pr-list--rows.png)
 

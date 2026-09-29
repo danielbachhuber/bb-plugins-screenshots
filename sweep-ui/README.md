@@ -20,8 +20,8 @@ Pressing a run's squares leaves only its rows, and every Later row in it shows.
 
 ![Filtered](sweep-list--filtered.png)
 
-### Expanded
+### Custom body
 
-"Expand all" opens every row, with its note and action line.
+A row body the plugin draws itself: the title line keeps its icon, number, and age, with a red or green banner under it.
 
-![Expanded](sweep-list--expanded.png)
+![Custom body](sweep-list--custom-body.png)
