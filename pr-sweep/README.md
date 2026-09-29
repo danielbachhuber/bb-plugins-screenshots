@@ -2,7 +2,7 @@
 
 # PR Sweep
 
-Open pull requests you authored, with the ones needing action flagged. Needs gh-context.
+Open pull requests you authored in one list, ordered Now, Next, and Later by what needs you, with local notes and new comment counts. Needs gh-context.
 
 Source: [`bb-plugin-pr-sweep`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-pr-sweep)
 
@@ -10,13 +10,13 @@ Source: [`bb-plugin-pr-sweep`](https://github.com/danielbachhuber/bb-plugins/tre
 
 ### Baseline
 
-A typical day: one ready to merge, two needing action, one being worked on, one with a reviewer.
+A typical day. The pull requests that need you, the one ready to merge, and the one with a thread are open at the top; the draft is closed to its number line; the one awaiting review is a single dimmed line.
 
 ![Baseline](pr-list--baseline.png)
 
 ### Rows
 
-Every section the panel can show, and every status badge, review line, and row action.
+Every run the list can draw: needs you, ready to merge, and working in Now; drafts in Next; waiting in Later, including one stale after six days with its reviewer. Then every flag as a problem on the number line, the list across two repositories, a thread being started with a timer running, and the panel without Harvest.
 
 ![Rows](pr-list--rows.png)
 
@@ -25,3 +25,9 @@ Every section the panel can show, and every status badge, review line, and row a
 Loading, empty, and the notices the panel shows above and below its rows.
 
 ![States](pr-list--states.png)
+
+### Long list
+
+A long list: the Now and Next rows at the top, then the first five Later rows, with the rest folded into "N more".
+
+![Long list](pr-list--long-list.png)
