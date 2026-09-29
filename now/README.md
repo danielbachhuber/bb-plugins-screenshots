@@ -72,6 +72,6 @@ On a task with no due date and a deadline that has passed, Postpone moves the de
 
 ### Default
 
-The counts beside Now in the sidebar: overdue tasks in a red circle, what to deal with today (Today, Me, and Requests) in a blue one, then every row in the Now section, as its tab counts them.
+The counts beside Now in the sidebar: overdue tasks in a red circle, then every row in the Now section, as its tab counts them.
 
 ![Default](sidebar-counts--default.png)
