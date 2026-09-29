@@ -16,7 +16,7 @@ A typical day. The pull requests that need you, the one ready to merge, and the 
 
 ### Rows
 
-Every run the list can draw: needs you, ready to merge, and working in Now; drafts in Next; waiting in Later, including one stale after six days with its reviewer. Then every flag in the banner and on the track, the list across two repositories, a thread being started with a timer running, and the panel without Harvest.
+Every run the list can draw: needs you, ready to merge, and working in Now; drafts in Next; waiting in Later, including one stale after six days with its reviewer. Then every flag in the banner, the list across two repositories, a thread being started with a timer running, and the panel without Harvest.
 
 ![Rows](pr-list--rows.png)
 
