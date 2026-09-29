@@ -2,7 +2,7 @@
 
 # Now
 
-One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. Overdue tasks, and mail left in the inbox more than two days, are tinted red and say how late they are. A square per row above the list shows how Now splits into overdue, today, your own items and email to you, requests of you, what can be archived, and what is minor, and pressing a run shows only its rows. Todoist descriptions render as Markdown, with open subtasks listed beneath. Complete, rename, reschedule, postpone, reprioritize, move, or delete tasks, read an email in full beside the list, archive email or mark it read, answer calendar invitations, reply on GitHub, merge your own pull requests, and start a thread from any row.
+One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. Overdue tasks, and mail left in the inbox more than two days, are tinted red and say how late they are. A square per row above the list shows how Now splits into urgent (overdue tasks and Todoist's Inbox), today, your own items and email to you, requests of you, what can be archived, and what is minor, and pressing a run shows only its rows. Todoist descriptions render as Markdown, with open subtasks listed beneath. Complete, rename, reschedule, postpone, reprioritize, move, or delete tasks, read an email in full beside the list, archive email or mark it read, answer calendar invitations, reply on GitHub, merge your own pull requests, and start a thread from any row.
 
 Source: [`bb-plugin-now`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-now)
 
@@ -34,7 +34,7 @@ The Email tab before any email is opened in it.
 
 ### Filtered to a run
 
-Pressing a run of squares under the toggles shows only its rows: here, the overdue ones.
+Pressing a run of squares under the toggles shows only its rows: here, the urgent ones.
 
 ![Filtered to a run](item-list--filtered-to-a-run.png)
 
@@ -72,6 +72,6 @@ On a task with no due date and a deadline that has passed, Postpone moves the de
 
 ### Default
 
-The counts beside Now in the sidebar: overdue tasks in a red circle, then every row in the Now section, as its tab counts them.
+The counts beside Now in the sidebar: urgent rows (overdue tasks and Todoist's Inbox) in a red circle, then every row in the Now section, as its tab counts them.
 
 ![Default](sidebar-counts--default.png)
