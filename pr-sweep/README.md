@@ -2,7 +2,7 @@
 
 # PR Sweep
 
-Open pull requests you authored in one list, ordered Now, Next, and Later by what needs you, with local notes, new comment counts, and where a stacked pull request sits in its stack. Needs gh-context.
+Open pull requests you authored in one list, newest first with the overdue and in-progress ones pinned on top, with local notes, new comment counts, and where a stacked pull request sits in its stack. Needs gh-context.
 
 Source: [`bb-plugin-pr-sweep`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-pr-sweep)
 
@@ -10,13 +10,13 @@ Source: [`bb-plugin-pr-sweep`](https://github.com/danielbachhuber/bb-plugins/tre
 
 ### Baseline
 
-A typical day. The pull requests that need you, the one ready to merge, and the one with a thread at the top, each with a red banner naming what stops it or a green one when it can merge; then the draft and the one awaiting review. The one with a thread is stacked on the one ready to merge, so each has a chip: "1 of 2 · base" and "2 of 2 · on #512".
+A typical day. The one with a thread is pinned at the top; the rest follow newest first, each with a red banner naming what stops it or a green one when it can merge. The one with a thread is stacked on the one ready to merge, so each has a chip: "1 of 2 · base" and "2 of 2 · on #512".
 
 ![Baseline](pr-list--baseline.png)
 
 ### Rows
 
-Every run the list can draw: needs you, ready to merge, and working in Now; drafts in Next; waiting in Later, including one stale after six days with its reviewer. Then every flag in the banner, the list across two repositories, a thread being started with a timer running, and the panel without Harvest.
+Every run the list can draw: needs you, ready to merge, working, drafts, and waiting, including one stale after six days with its reviewer, pinned on top with the one being worked on, and the rest newest first. Then every flag in the banner, the list across two repositories, a thread being started with a timer running, and the panel without Harvest.
 
 ![Rows](pr-list--rows.png)
 
@@ -28,6 +28,6 @@ Loading, empty, and the notices the panel shows above and below its rows.
 
 ### Long list
 
-A long list: the Now and Next rows at the top, then the first five Later rows, with the rest folded into "N more".
+A long list: the pinned rows at the top, then every other pull request newest first, with nothing folded.
 
 ![Long list](pr-list--long-list.png)
