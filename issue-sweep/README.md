@@ -2,7 +2,7 @@
 
 # Issue Sweep
 
-Open GitHub issues assigned to you in one list, ordered Now, Next, and Later by what needs you, with local notes and new comment counts. Needs gh-context.
+Open GitHub issues assigned to you, split into what needs you and everything else grouped by board status, with local notes and new comment counts. Needs gh-context.
 
 Source: [`bb-plugin-issue-sweep`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-issue-sweep)
 
@@ -10,13 +10,13 @@ Source: [`bb-plugin-issue-sweep`](https://github.com/danielbachhuber/bb-plugins/
 
 ### Baseline
 
-Four issues assigned to you. The one with new comments and the one with a thread are open at the top; the ready one is closed to its number line; the backlog one is a single dimmed line.
+Four issues assigned to you. The one with new comments, the one with a thread, and the ready one need you, open on the left; the backlog one is a single line on the right.
 
 ![Baseline](issue-list--baseline.png)
 
 ### Rows
 
-Every run the list can draw: new comments, stale, and working in Now; to start in Next; then waiting on review, later, and blocked. Rows show a parent chip, sub-issue and task counts, a status the track does not name, issues off the board, and "No project here" where nothing is checked out. Then the same list across two repositories, a thread being started with a timer running, and the panel without Harvest.
+Every run the list can draw: new comments, stale, working, and to start under Needs you; waiting on review, later, and blocked grouped by status beside them. Rows show a parent chip, sub-issue and task counts, a status the stages do not name, issues off the board, and "No project here" where nothing is checked out. Then the same list across two repositories, a thread being started with a timer running, and the panel without Harvest.
 
 ![Rows](issue-list--rows.png)
 
@@ -28,12 +28,12 @@ The panel before the first listing arrives, with nothing assigned, and with noth
 
 ### Warnings
 
-What the panel shows when something is wrong: a failed sweep above the last good rows, gh-context missing so no row can start a thread, and no board configured so every row shows its status as text in place of the track.
+What the panel shows when something is wrong: a failed sweep above the last good rows, gh-context missing so no row can start a thread, and no board configured so every row shows its status as text in place of the picker.
 
 ![Warnings](issue-list--warnings.png)
 
 ### Long list
 
-A long list: the Now and Next rows at the top, then the first five Later rows, with the rest folded into "N more".
+A long list: what needs you on the left, and a long backlog grouped on the right, with the issues off the board after it.
 
 ![Long list](issue-list--long-list.png)
