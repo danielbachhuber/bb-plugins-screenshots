@@ -2,7 +2,7 @@
 
 # PR Sweep
 
-Open pull requests you authored in one list, ordered Now, Next, and Later by what needs you, with local notes and new comment counts. Needs gh-context.
+Open pull requests you authored in one list, ordered Now, Next, and Later by what needs you, with local notes, new comment counts, and where a stacked pull request sits in its stack. Needs gh-context.
 
 Source: [`bb-plugin-pr-sweep`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-pr-sweep)
 
@@ -10,7 +10,7 @@ Source: [`bb-plugin-pr-sweep`](https://github.com/danielbachhuber/bb-plugins/tre
 
 ### Baseline
 
-A typical day. The pull requests that need you, the one ready to merge, and the one with a thread at the top, each with a red banner naming what stops it or a green one when it can merge; then the draft and the one awaiting review.
+A typical day. The pull requests that need you, the one ready to merge, and the one with a thread at the top, each with a red banner naming what stops it or a green one when it can merge; then the draft and the one awaiting review. The one with a thread is stacked on the one ready to merge, so each has a chip: "1 of 2 · base" and "2 of 2 · on #512".
 
 ![Baseline](pr-list--baseline.png)
 
