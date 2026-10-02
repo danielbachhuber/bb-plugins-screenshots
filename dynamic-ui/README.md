@@ -2,7 +2,7 @@
 
 # Dynamic UI
 
-Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. A list view instead shows everything in the side panel as one list, with quick decisions such as Add and Skip on each row and the names to add editable. A visual review shows screenshots of a UI's original and its variations, for you to pick one and note on each. An item about a change shows it: a pull request's files in bb's diff view, a lockfile as the packages whose versions changed, or a section's new text beside the old with the changed words marked, each claim in it numbered and footnoted with the quotes that back it and whether they fully support it. Work that goes in rounds, such as sections of a document, shows a status the agent sets, a count of what is complete, each item's history and budget, supporting notes to add, a map of the pages the items fill, and a field for your push-back, and stays open until the agent marks it complete. An item can also show in another thread, such as the one drafting that section with you, with its push-back going there.
+Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. A list view instead shows everything in the side panel as one list, with quick decisions such as Add and Skip on each row and the names to add editable. A visual review shows screenshots of a UI's original and its variations, for you to pick one and note on each. An item about a change shows it: a pull request's files in bb's diff view, a lockfile as the packages whose versions changed, or a section's new text beside the old with the changed words marked, each claim in it numbered and footnoted with the quotes that back it and whether they fully support it. Work that goes in rounds, such as sections of a document, shows a status the agent sets, a count of what is complete, each item's history and budget, supporting notes to add, a map of the pages the items fill, and a field for your push-back, and stays open until the agent marks it complete. An item can also show in another thread, such as the one drafting that section with you, with its push-back going there. Views published under different keys show above the composer together, each with its own header.
 
 Source: [`bb-plugin-dynamic-ui`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-dynamic-ui)
 
@@ -121,6 +121,12 @@ After sending: the pick and notes stay as what was sent, and the row says which 
 A piece of work in rounds: the header counts what the agent marked complete, and each row shows the status it set.
 
 ![Grant](thread--grant.png)
+
+### Grant with question
+
+Two views at once: the grant, and a suggested answer the thread published under a key of its own. Each has its own header, count, collapse, and archive button.
+
+![Grant with question](thread--grant-with-question.png)
 
 ### Grant section threads
 
