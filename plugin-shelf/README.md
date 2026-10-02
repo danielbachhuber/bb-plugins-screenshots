@@ -2,7 +2,7 @@
 
 # Plugin Shelf
 
-Lists the plugins in your bb-plugins checkout as published and current, published with commits not yet released (with those commits), or personal, on a My plugins page in bb's Plugins screen, with a button on each to start a thread on it and one to publish an update where one is due.
+Lists the plugins in your bb-plugins checkout as published and current, published with commits not yet released (with those commits), or personal, with each published plugin's install count, on a My plugins page in bb's Plugins screen, with a button on each to start a thread on it and one to publish an update where one is due.
 
 Source: [`bb-plugin-plugin-shelf`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-plugin-shelf)
 
