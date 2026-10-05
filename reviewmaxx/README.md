@@ -46,7 +46,7 @@ A branch with nothing on it yet.
 
 ### Test concern
 
-A test concern on Scenarios: what the tests check as Gherkin, each recorded value under its step, then what they leave out. Diff shows the raw files.
+A test concern on Scenarios: its scenarios listed, the chosen one as Gherkin with recorded values folded until Show values, then what the tests leave out. Diff shows the raw files.
 
 ![Test concern](review-panel--test-concern.png)
 
