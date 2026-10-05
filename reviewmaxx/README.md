@@ -2,7 +2,7 @@
 
 # Reviewmaxx
 
-Review a branch one concern at a time. A panel beside the thread groups every hunk on the branch into concerns, each with a summary written by the thread's agent, checks that every hunk appears exactly once, and shows exactly what changed when the branch moves on.
+Review a branch one concern at a time. A panel beside the thread groups every hunk on the branch into concerns, each with a summary written by the thread's agent, checks that every hunk appears exactly once, lets you mark files viewed, shows test changes as Gherkin scenarios with what they leave out, and shows exactly what changed when the branch moves on.
 
 Source: [`bb-plugin-reviewmaxx`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-reviewmaxx)
 
@@ -43,3 +43,15 @@ An environment without a git checkout.
 A branch with nothing on it yet.
 
 ![No changes](review-panel--no-changes.png)
+
+### Test concern
+
+A test concern on Scenarios: what the tests check as Gherkin, each recorded value under its step, then what they leave out. Diff shows the raw files.
+
+![Test concern](review-panel--test-concern.png)
+
+### Some viewed
+
+Some files marked viewed: they fold and dim, and the bar and the outline count them.
+
+![Some viewed](review-panel--some-viewed.png)
