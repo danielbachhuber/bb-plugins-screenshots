@@ -44,9 +44,15 @@ A branch with nothing on it yet.
 
 ![No changes](review-panel--no-changes.png)
 
+### Code and tests
+
+A concern that changes code and tests: the code first, then its tests as scenarios under Tests, whose Scenarios and Diff toggle swaps only the test files. The rail counts its scenarios.
+
+![Code and tests](review-panel--code-and-tests.png)
+
 ### Test concern
 
-A test concern on Scenarios: its scenarios listed, the chosen one as Gherkin with recorded values folded until Show values, then what the tests leave out. Diff shows the raw files.
+A concern that is only tests: its scenarios listed, the chosen one as Gherkin with recorded values folded until Show values, then what the tests leave out. Diff, beside the title, shows the raw files. The rail tags it "tests".
 
 ![Test concern](review-panel--test-concern.png)
 
