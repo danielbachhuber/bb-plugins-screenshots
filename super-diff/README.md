@@ -2,7 +2,7 @@
 
 # Super Diff
 
-Review a branch one concern at a time. A panel beside the thread groups every hunk on the branch into concerns, each with a summary written by the thread's agent, checks that every hunk appears exactly once and that bb lists the same files, lets you mark files viewed, shows test changes as Gherkin scenarios with what they leave out, and shows exactly what changed when the branch moves on.
+Review a branch one concern at a time. A panel beside the thread groups every hunk on the branch into concerns, each with a summary written by the thread's agent, checks that every hunk appears exactly once and that bb lists the same files, lets you check off each hunk, kept in step with GitHub's per-file Viewed, shows test changes as Gherkin scenarios with what they leave out, and shows exactly what changed when the branch moves on.
 
 Source: [`bb-plugin-super-diff`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-super-diff)
 
@@ -85,3 +85,27 @@ A branch of 42 files, most of them read: too many to name one by one, so the bar
 bb's own changes panel lists a file Super Diff does not: the check beside the count turns red and names it.
 
 ![Files differ from bb](review-panel--files-differ-from-bb.png)
+
+### Checks without pull request
+
+No pull request: each hunk has a checkmark on its strip, and a read hunk folds to it. Files have no Viewed box.
+
+![Checks without pull request](review-panel--checks-without-pull-request.png)
+
+### Synced one hunk read
+
+A pull request with the same files: each file's Viewed box is GitHub's. widget.ts has its first hunk read and its second still to read, so it is not yet Viewed.
+
+![Synced one hunk read](review-panel--synced-one-hunk-read.png)
+
+### Synced viewed on github
+
+widget.ts is Viewed on GitHub, so every hunk of it reads as checked and its card folds.
+
+![Synced viewed on github](review-panel--synced-viewed-on-github.png)
+
+### Not on github yet
+
+widget.ts has edits not on the pull request, so it shows "not on GitHub yet" instead of Viewed; its checkmarks stay in bb.
+
+![Not on github yet](review-panel--not-on-github-yet.png)
