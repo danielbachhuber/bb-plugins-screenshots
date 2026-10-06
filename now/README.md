@@ -2,7 +2,7 @@
 
 # Now
 
-One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. Overdue tasks, and mail left in the inbox more than a day, are tinted red and say how late they are. A square per row above the list shows how Now splits into urgent (overdue tasks and Todoist's Inbox), unread email, today, your own items and email to you, requests of you, what can be archived, and what is minor, and pressing a run shows only its rows. Todoist descriptions render as Markdown, with open subtasks listed beneath. Complete, rename, describe, reschedule, postpone, reprioritize, move, or delete tasks, read an email in full beside the list, open an email or GitHub comment the snippet cut short in full, archive email or mark it read, answer calendar invitations, accept a new time a guest proposes for your event, reply on GitHub, merge your own pull requests, and start a thread from any row.
+One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. Overdue tasks, and mail left in the inbox more than a day, are tinted red and say how late they are. A square per row above the list shows how Now splits into urgent (overdue tasks and Todoist's Inbox), unread email, today, your own items and email to you, requests of you, what can be archived, and what is minor, and pressing a run shows only its rows. Todoist descriptions render as Markdown, with open subtasks listed beneath. Complete, rename, describe, reschedule, postpone, reprioritize, move, or delete tasks, read an email in full beside the list, open an email or GitHub comment the snippet cut short in full, archive email or mark it read, answer calendar invitations, accept a new time a guest proposes for your event, reply on GitHub, merge your own pull requests, and start a thread from any row. A column beside the list shows the week's priorities, written in by Weekly Review from your journal, with the hours each has had, and you check each one off there.
 
 Source: [`bb-plugin-now`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-now)
 
@@ -67,6 +67,20 @@ On a one-off task whose due date has passed, Postpone moves that date and keeps 
 On a task with no due date and a deadline that has passed, Postpone moves the deadline.
 
 ![Past deadline](postpone-menu--past-deadline.png)
+
+## Priorities
+
+### Default
+
+The column beside Now's list: one priority checked off, one with no time yet, one not linked to any workstream, and one with nested bullets.
+
+![Default](priorities--default.png)
+
+### Layout
+
+Wide, the priorities sit to the right of the list. Narrow, they move above it.
+
+![Layout](priorities--layout.png)
 
 ## Sidebar counts
 

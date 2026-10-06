@@ -2,7 +2,7 @@
 
 # Weekly Review
 
-One page of what you actually did this week, gathered at 7am and 1pm on weekdays, sorted into workstreams by rules you refine, and set against the priorities in last week's entry, to write the journal entry from.
+One page of what you actually did this week, gathered at 7am and 1pm on weekdays, sorted into workstreams by rules you refine, and set against the priorities in last week's entry, to write the journal entry from. It sends those priorities to the Now page, with each one's hours, and shows which you checked off there.
 
 Source: [`bb-plugin-weekly-review`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-weekly-review)
 
@@ -48,7 +48,7 @@ Team rituals added to a week it had no activity in, so its empty row shows.
 
 ### Priorities
 
-Last week's Next list above the table. Widget sync got time; Team rituals was linked and got none; the gadget launch bullet is not linked yet, with a suggested link; the last has nothing to link to.
+Last week's Next list above the table. Widget sync got time and is checked off on the Now page; Team rituals was linked and got none; the gadget launch bullet is not linked yet, with a suggested link; the last has nothing to link to.
 
 ![Priorities](workstreams--priorities.png)
 
