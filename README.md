@@ -18,7 +18,7 @@ small history while the visual history is still available.
 | [PR Sweep](pr-sweep/README.md) | Open pull requests you authored in one list, newest first with the overdue and in-progress ones pinned on top, with local notes, new comment counts, and where a stacked pull request sits in its stack. | 4 stories |
 | [Presentations](presentations/README.md) | Give a talk from a bb thread. | 6 stories |
 | [Review Sweep](review-sweep/README.md) | Open pull requests waiting on a review from you in one list, ordered Now, Next, and Later by what needs you, oldest request first, with local notes, new comment counts, and where a stacked pull request sits in its stack. | 4 stories |
-| [Super Diff](super-diff/README.md) | Review a branch one concern at a time. | 11 stories |
+| [Super Diff](super-diff/README.md) | Review a branch one concern at a time. | 13 stories |
 | [sweep-ui](sweep-ui/README.md) | The list Issue Sweep, PR Sweep, and Review Sweep draw each tab with: summary squares, rows ordered Now, Next, and Later, and a stage track. | 3 stories |
 | [Thread Overview](thread-overview/README.md) | A band under each thread's header saying what the thread is for, what has been done so far, and which step it is on, written by the agent as it works and edited by you in place. | 1 story |
 | [Tokenomics](tokenomics/README.md) | Graphs how many tokens your threads used over the past day, three days, or week, lists each thread's share, and puts a sparkline of each thread's token use over time in its header that opens a summary of which of your messages used the most. | 10 stories |

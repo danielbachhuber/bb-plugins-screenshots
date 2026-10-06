@@ -2,7 +2,7 @@
 
 # Super Diff
 
-Review a branch one concern at a time. A panel beside the thread groups every hunk on the branch into concerns, each with a summary written by the thread's agent, checks that every hunk appears exactly once, lets you mark files viewed, shows test changes as Gherkin scenarios with what they leave out, and shows exactly what changed when the branch moves on.
+Review a branch one concern at a time. A panel beside the thread groups every hunk on the branch into concerns, each with a summary written by the thread's agent, checks that every hunk appears exactly once and that bb lists the same files, lets you mark files viewed, shows test changes as Gherkin scenarios with what they leave out, and shows exactly what changed when the branch moves on.
 
 Source: [`bb-plugin-super-diff`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-super-diff)
 
@@ -73,3 +73,15 @@ A file split across concerns, viewed in one: src/widget.ts folds in Add the spro
 Scenarios that do not match the test() calls: three scenarios written from one test. A note above the list says so, and each scenario says how much of the test it covers.
 
 ![Scenarios split one test](review-panel--scenarios-split-one-test.png)
+
+### Many files
+
+A branch of 42 files, most of them read: too many to name one by one, so the bar groups them by directory, each named with its file count, every file still a sliver that fills as it is read.
+
+![Many files](review-panel--many-files.png)
+
+### Files differ from bb
+
+bb's own changes panel lists a file Super Diff does not: the check beside the count turns red and names it.
+
+![Files differ from bb](review-panel--files-differ-from-bb.png)
