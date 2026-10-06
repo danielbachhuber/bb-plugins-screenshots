@@ -58,9 +58,15 @@ A concern that is only tests: its scenarios listed, the chosen one as Gherkin wi
 
 ### Some viewed
 
-Some files marked viewed: they fold and dim, and the bar and the outline count them.
+Some files marked viewed: they fold and dim, and the bar and the rail count them.
 
 ![Some viewed](review-panel--some-viewed.png)
+
+### Split file viewed in one concern
+
+A file split across concerns, viewed in one: src/widget.ts folds in Add the sprocket, which holds its first hunk, but stays open in Call it from the widget, and the bar does not count it until both are read.
+
+![Split file viewed in one concern](review-panel--split-file-viewed-in-one-concern.png)
 
 ### Scenarios split one test
 
