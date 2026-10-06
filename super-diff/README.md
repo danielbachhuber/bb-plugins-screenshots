@@ -56,6 +56,12 @@ A concern that is only tests: its scenarios listed, the chosen one as Gherkin wi
 
 ![Test concern](review-panel--test-concern.png)
 
+### Scenario reviewed
+
+Each scenario has a checkmark for the test hunks behind it, and says how far through them you are. Only the snapshot is read here: the first scenario, which also covers the new test, is 1 of 2 hunks reviewed, and the second, whose test is unchanged, is reviewed.
+
+![Scenario reviewed](review-panel--scenario-reviewed.png)
+
 ### Some viewed
 
 Some files marked viewed: they fold and dim, and the bar and the rail count them.
