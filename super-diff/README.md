@@ -61,3 +61,9 @@ A concern that is only tests: its scenarios listed, the chosen one as Gherkin wi
 Some files marked viewed: they fold and dim, and the bar and the outline count them.
 
 ![Some viewed](review-panel--some-viewed.png)
+
+### Scenarios split one test
+
+Scenarios that do not match the test() calls: three scenarios written from one test. A note above the list says so, and each scenario says how much of the test it covers.
+
+![Scenarios split one test](review-panel--scenarios-split-one-test.png)
