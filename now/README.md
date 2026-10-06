@@ -72,13 +72,13 @@ On a task with no due date and a deadline that has passed, Postpone moves the de
 
 ### Default
 
-The column beside Now's list: one priority checked off, one with no time yet, one not linked to any workstream, and one with nested bullets.
+The column beside Now's list: one priority checked off, one with no time yet, one not linked to any workstream, and one with bullets nested two levels deep.
 
 ![Default](priorities--default.png)
 
 ### Layout
 
-Wide, the priorities sit to the right of the list. Narrow, they move above it.
+Wide, the priorities sit to the right of the list, and dragging the column's left edge changes its width. Narrow, they move above it.
 
 ![Layout](priorities--layout.png)
 
