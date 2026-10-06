@@ -2,7 +2,7 @@
 
 # PR Sweep
 
-Open pull requests you authored in one list, newest first with the overdue and in-progress ones pinned on top, with local notes, new comment counts, and where a stacked pull request sits in its stack. Needs gh-context.
+Open pull requests you authored in one list, newest first with the overdue and in-progress ones pinned on top, with local notes, new comment counts, a Dismiss for failing checks you cannot fix, and where a stacked pull request sits in its stack. Needs gh-context.
 
 Source: [`bb-plugin-pr-sweep`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-pr-sweep)
 
