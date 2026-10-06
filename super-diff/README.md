@@ -2,7 +2,7 @@
 
 # Super Diff
 
-Review a branch one concern at a time. A panel beside the thread groups every hunk on the branch into concerns, each with a summary written by the thread's agent, checks that every hunk appears exactly once and that bb lists the same files, lets you check off each hunk, kept in step with GitHub's per-file Viewed, shows test changes as Gherkin scenarios with what they leave out, and shows exactly what changed when the branch moves on.
+Review a branch one concern at a time. A panel beside the thread groups every hunk on the branch into concerns, each with a summary written by the thread's agent, checks that every hunk appears exactly once and that bb lists the same files, lets you check off each hunk, kept in step with GitHub's per-file Viewed or, with no pull request, Diff Viewed's, shows test changes as Gherkin scenarios with what they leave out, and shows exactly what changed when the branch moves on.
 
 Source: [`bb-plugin-super-diff`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-super-diff)
 
