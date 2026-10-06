@@ -1,10 +1,10 @@
 <!-- Written by `npm run screenshots` in bb-plugins. Edit the stories there, not this file. -->
 
-# Reviewmaxx
+# Super Diff
 
 Review a branch one concern at a time. A panel beside the thread groups every hunk on the branch into concerns, each with a summary written by the thread's agent, checks that every hunk appears exactly once, lets you mark files viewed, shows test changes as Gherkin scenarios with what they leave out, and shows exactly what changed when the branch moves on.
 
-Source: [`bb-plugin-reviewmaxx`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-reviewmaxx)
+Source: [`bb-plugin-super-diff`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-super-diff)
 
 ## Review panel
 
