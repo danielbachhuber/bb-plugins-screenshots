@@ -2,7 +2,7 @@
 
 # Contributor Dashboard
 
-A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests and reviews. Its first section, Review Velocity, charts for each person the reviews requested of them and the reviews they gave, week by week, over six weeks to a year.
+A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests and reviews. Its first section, Review Velocity, charts for each person the reviews requested of them and the reviews they gave, week by week, over six weeks to a year, and clicking a name opens that person's page: their review lines, the pull requests waiting on their review, and how their own pull requests fared in review.
 
 Source: [`bb-plugin-contributor-dashboard`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-contributor-dashboard)
 
@@ -43,3 +43,15 @@ Before a repository is set.
 A sync that failed, such as gh not being signed in.
 
 ![Sync failed](page--sync-failed.png)
+
+### Person page
+
+One person's page, reached by clicking their name on the dashboard.
+
+![Person page](page--person-page.png)
+
+### Person page quiet
+
+Nobody is waiting on them and they have opened nothing this period.
+
+![Person page quiet](page--person-page-quiet.png)
