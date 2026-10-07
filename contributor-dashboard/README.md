@@ -1,10 +1,10 @@
 <!-- Written by `npm run screenshots` in bb-plugins. Edit the stories there, not this file. -->
 
-# Review Velocity
+# Contributor Dashboard
 
-Charts code review for one GitHub repository from a local mirror of its pull requests and reviews: for each person, the reviews requested of them and the reviews they gave, week by week, over six weeks to a year.
+A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests and reviews. Its first section, Review Velocity, charts for each person the reviews requested of them and the reviews they gave, week by week, over six weeks to a year.
 
-Source: [`bb-plugin-review-velocity`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-review-velocity)
+Source: [`bb-plugin-contributor-dashboard`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-contributor-dashboard)
 
 ## Page
 
