@@ -60,6 +60,6 @@ The button where bb draws it, in a thread header's action row, with its summary 
 
 ### Context meter states
 
-The meter above a thread's composer once its context passes the warning setting, 300K tokens here, with a button that compacts the thread.
+The meter above a thread's composer once its context passes the warning setting, 300K tokens here, and red past the error setting, 550K, with a button that compacts the thread.
 
 ![Context meter states](page--context-meter-states.png)
