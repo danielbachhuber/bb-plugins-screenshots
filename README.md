@@ -21,7 +21,7 @@ small history while the visual history is still available.
 | [Super Diff](super-diff/README.md) | Review a branch one concern at a time. | 17 stories |
 | [sweep-ui](sweep-ui/README.md) | The list Issue Sweep, PR Sweep, and Review Sweep draw each tab with: summary squares, rows ordered Now, Next, and Later, and a stage track. | 3 stories |
 | [Thread Overview](thread-overview/README.md) | A band under each thread's header saying what the thread is for, what has been done so far, and which step it is on, written by the agent as it works and edited by you in place. | 1 story |
-| [Tokenomics](tokenomics/README.md) | Graphs how many tokens your threads used over the past day, three days, or week, lists each thread's share, puts a sparkline of each thread's token use over time in its header that opens a summary of which of your messages used the most, and shows a meter above a thread's composer once its context passes a size you set, with a button that compacts it. | 11 stories |
+| [Tokenomics](tokenomics/README.md) | Graphs how many tokens your threads used over the past day, three days, or week, lists each thread's share, puts a sparkline of each thread's token use over time in its header that opens a summary of which of your messages used the most tokens and time, and shows a meter above a thread's composer once its context passes a size you set, with a button that compacts it. | 11 stories |
 
 Each directory is a plugin or a shared package, named for the first part of
 its story titles. Its README describes it and shows each story, in the light
