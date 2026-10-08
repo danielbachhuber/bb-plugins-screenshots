@@ -2,7 +2,7 @@
 
 # Diff Comment
 
-Leave review comments inline on a thread's diff, then have the agent work through them one at a time. The thread's pull request review comments show on the same diff, and a comment, or a question with the agent's answer, can go to the pull request as a draft review comment.
+Leave review comments inline on a thread's diff, then have the agent work through them one at a time. The agent can offer the points it raises in a review as comments to add, the thread's pull request review comments show on the same diff, and any comment can go to the pull request as a draft review comment.
 
 Source: [`bb-plugin-diff-comment`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-diff-comment)
 
