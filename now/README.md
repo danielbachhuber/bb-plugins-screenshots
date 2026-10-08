@@ -72,7 +72,7 @@ On a task with no due date and a deadline that has passed, Postpone moves the de
 
 ### Default
 
-The column beside Now's list: one priority checked off, one with no time yet, one not linked to any workstream, and one with bullets nested two levels deep.
+The column beside Now's list: one priority checked off, one with no time yet, one not linked to any workstream, and one with bullets nested two levels deep. The icon after each priority starts a thread about it, or opens the one already started.
 
 ![Default](priorities--default.png)
 
