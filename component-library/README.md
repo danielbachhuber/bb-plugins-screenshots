@@ -18,7 +18,7 @@ Segmented picks one of a few choices, such as a period; one is always on. Segmen
 
 ### States
 
-The counts beside a page's name in the sidebar: the rows that need you most in a red circle, then every row.
+The counts beside a page's name in the sidebar: the rows that need you most in a red circle, those due today in an amber one when the page counts them, then every row.
 
 ![States](sidebar-count--states.png)
 
