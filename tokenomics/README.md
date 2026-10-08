@@ -2,7 +2,7 @@
 
 # Tokenomics
 
-Graphs how many tokens your threads used over the past day, three days, or week, lists each thread's share, puts a sparkline of each thread's token use over time in its header that opens a summary of which of your messages used the most tokens and time, and shows a meter above a thread's composer once its context passes a size you set, with a button that compacts it.
+Graphs how many tokens your threads used over the past day, three days, or week, lists each thread's share, puts a sparkline of each thread's token use over time in its header that opens a summary of which of your messages used the most tokens and time, and shows a meter above a thread's composer once its context passes a size you set, with a button that compacts it. The bb tokenomics command prints the same numbers per thread for scripts.
 
 Source: [`bb-plugin-tokenomics`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-tokenomics)
 
