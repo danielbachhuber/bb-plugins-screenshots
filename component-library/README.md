@@ -6,6 +6,14 @@ UI that several plugins draw the same way, starting with the sync status in a pa
 
 Source: [`component-library`](https://github.com/danielbachhuber/bb-plugins/tree/main/component-library)
 
+## Segmented
+
+### States
+
+Segmented picks one of a few choices, such as a period; one is always on. SegmentedToggle filters a list, and pressing the chosen option again turns the filter off.
+
+![States](segmented--states.png)
+
 ## Sidebar count
 
 ### States
