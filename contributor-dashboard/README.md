@@ -50,6 +50,12 @@ One person's page, reached by clicking their name on the dashboard.
 
 ![Person page](page--person-page.png)
 
+### Person page paged
+
+A prolific author: their pull requests page 25 at a time.
+
+![Person page paged](page--person-page-paged.png)
+
 ### Person page quiet
 
 Nobody is waiting on them and they have opened nothing this period.
