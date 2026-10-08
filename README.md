@@ -10,6 +10,7 @@ small history while the visual history is still available.
 
 | Plugin | What it does | Screenshots |
 | --- | --- | --- |
+| [component-library](component-library/README.md) | UI that several plugins draw the same way, starting with the sync status in a page's title bar. | 2 stories |
 | [Dynamic UI](dynamic-ui/README.md) | Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. | 54 stories |
 | [GitHub Context](gh-context/README.md) | A banner above the composer showing the thread's pull request and its reviewers, the GitHub issues it works on, its changes, and a Harvest timer, in place of bb's own. | 5 stories |
 | [Issue Sweep](issue-sweep/README.md) | Open GitHub issues assigned to you, split into what needs you and everything else grouped by board status, with local notes and new comment counts. | 5 stories |
