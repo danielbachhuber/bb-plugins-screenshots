@@ -2,7 +2,7 @@
 
 # Review Sweep
 
-Open pull requests waiting on a review from you in one list, ordered Now, Next, and Later by what needs you, oldest request first, with local notes, new comment counts, and where a stacked pull request sits in its stack. Needs gh-context.
+Open pull requests waiting on a review from you in one list, ordered Now, Next, and Later by what needs you, oldest request first, with local notes, new comment counts, and where a stacked pull request sits in its stack, plus Batch to start reviews for several at once. Needs gh-context.
 
 Source: [`bb-plugin-review-sweep`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-review-sweep)
 
@@ -31,3 +31,9 @@ Loading, empty, and the notices the panel shows above and below its rows.
 A long list: the Now and Next rows at the top, then the first five Later rows, with the rest folded into "N more".
 
 ![Long list](review-list--long-list.png)
+
+### Batch
+
+Batch, beside the summary squares, opens this dialog. Ticking a request shows the prompt its review will start with, in a column to edit before starting; clicking another ticked title shows its prompt instead.
+
+![Batch](review-list--batch.png)
