@@ -28,6 +28,12 @@ Rows with and without a circle, one above the other: the totals line up because 
 
 ![Aligned](sidebar-count--aligned.png)
 
+### Levels
+
+Counts of rows past a warning, in amber, and past an error, in red, for a page with no total to show.
+
+![Levels](sidebar-count--levels.png)
+
 ## Sync status
 
 ### States
