@@ -2,7 +2,7 @@
 
 # Issue Sweep
 
-Open GitHub issues assigned to you, split into what needs you and everything else grouped by board status, with local notes and new comment counts. Needs gh-context.
+Open GitHub issues assigned to you, split into what needs you and everything else grouped by board status, with local notes, new comment counts, and the comments a click away. Needs gh-context.
 
 Source: [`bb-plugin-issue-sweep`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-issue-sweep)
 
@@ -31,6 +31,12 @@ The panel before the first listing arrives, with nothing assigned, and with noth
 What the panel shows when something is wrong: a failed sweep above the last good rows, gh-context missing so no row can start a thread, and no board configured so every row shows its status as text in place of the picker.
 
 ![Warnings](issue-list--warnings.png)
+
+### Comments drawer states
+
+The drawer a row's comment count opens: the issue's latest comments, oldest first, with the ones that arrived since it was last seen marked new. Each opens on GitHub. Then the drawer while it reads, when GitHub fails, and when the issue has more comments than the drawer reads.
+
+![Comments drawer states](issue-list--comments-drawer-states.png)
 
 ### Long list
 
