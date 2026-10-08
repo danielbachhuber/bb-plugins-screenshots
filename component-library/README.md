@@ -6,6 +6,20 @@ UI that several plugins draw the same way, starting with the sync status in a pa
 
 Source: [`component-library`](https://github.com/danielbachhuber/bb-plugins/tree/main/component-library)
 
+## Sidebar count
+
+### States
+
+The counts beside a page's name in the sidebar: the rows that need you most in a red circle, then every row.
+
+![States](sidebar-count--states.png)
+
+### Aligned
+
+Rows with and without a circle, one above the other: the totals line up because each keeps a box at least 20px wide.
+
+![Aligned](sidebar-count--aligned.png)
+
 ## Sync status
 
 ### States

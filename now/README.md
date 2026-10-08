@@ -81,11 +81,3 @@ The column beside Now's list: one priority checked off, one with no time yet, on
 Wide, the priorities sit to the right of the list, and dragging the column's left edge changes its width. Narrow, they move above it.
 
 ![Layout](priorities--layout.png)
-
-## Sidebar counts
-
-### Default
-
-The counts beside Now in the sidebar: urgent rows (overdue tasks and Todoist's Inbox) in a red circle, then every row in the Now section, as its tab counts them.
-
-![Default](sidebar-counts--default.png)

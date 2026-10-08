@@ -10,13 +10,13 @@ small history while the visual history is still available.
 
 | Plugin | What it does | Screenshots |
 | --- | --- | --- |
-| [component-library](component-library/README.md) | UI that several plugins draw the same way, starting with the sync status in a page's title bar. | 2 stories |
+| [component-library](component-library/README.md) | UI that several plugins draw the same way, starting with the sync status in a page's title bar. | 4 stories |
 | [Contributor Dashboard](contributor-dashboard/README.md) | A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews and issues. | 14 stories |
 | [Diff Comment](diff-comment/README.md) | Leave review comments inline on a thread's diff, then have the agent work through them one at a time. | 6 stories |
 | [Dynamic UI](dynamic-ui/README.md) | Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. | 54 stories |
 | [GitHub Context](gh-context/README.md) | A banner above the composer showing the thread's pull request and its reviewers, the GitHub issues it works on, its changes, and a Harvest timer, in place of bb's own. | 5 stories |
 | [Issue Sweep](issue-sweep/README.md) | Open GitHub issues assigned to you, split into what needs you and everything else grouped by board status, with local notes, new comment counts, and the comments a click away. | 6 stories |
-| [Now](now/README.md) | One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. | 13 stories |
+| [Now](now/README.md) | One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. | 12 stories |
 | [Plugin Shelf](plugin-shelf/README.md) | Lists the plugins in your bb-plugins checkout as published and current, published with commits not yet released (with those commits), or personal, with each published plugin's install count, on a My plugins page in bb's Plugins screen, with a button on each to start a thread on it and one to publish an update where one is due. | 4 stories |
 | [PR Sweep](pr-sweep/README.md) | Open pull requests you authored in one list, newest first with the overdue and in-progress ones pinned on top, with local notes, new comment counts, review comments a click away, a Dismiss for failing checks you cannot fix, and where a stacked pull request sits in its stack. | 5 stories |
 | [Presentations](presentations/README.md) | Give a talk from a bb thread. | 6 stories |
