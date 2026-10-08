@@ -2,7 +2,7 @@
 
 # Review Sweep
 
-Open pull requests waiting on a review from you in one list, ordered Now, Next, and Later by what needs you, oldest request first, with local notes, new comment counts, and where a stacked pull request sits in its stack, plus Batch to start reviews for several at once. Needs gh-context.
+Open pull requests waiting on a review from you in one list, ordered Now, Next, and Later by what needs you, oldest request first, with local notes, new comment counts, comments a click away, and where a stacked pull request sits in its stack, plus Batch to start reviews for several at once. Needs gh-context.
 
 Source: [`bb-plugin-review-sweep`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-review-sweep)
 
@@ -19,6 +19,12 @@ A typical day. The one waited on too long, with its red banner, and the one with
 Every run the list can draw: re-review, with its blue banner, waiting too long, and reviewing in Now; to review in Next; drafts in Later. Every row is open, with the timer at the bottom right. The thread re-review and the draft are layers of one stack, each with a chip saying where it sits and what it is built on. Then the list across two repositories, a thread being started with a timer running, and the panel without Harvest.
 
 ![Rows](review-list--rows.png)
+
+### Comments drawer
+
+The drawer a row's comment count opens, on a pull request you are reviewing. Your own threads stay in: the author's answer to one is marked unanswered, and one nobody has answered yet waits on a reply. Resolved threads wait behind "1 resolved". Then the drawer while it reads, and when GitHub fails.
+
+![Comments drawer](review-list--comments-drawer.png)
 
 ### States
 
