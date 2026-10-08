@@ -2,7 +2,7 @@
 
 # Contributor Dashboard
 
-A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews and issues. The page opens with the flow of stages work passes through, from Triage and Assign ownership on issues to Implement change, Prepare pull request, Code review and Merge decision on pull requests, each with how many are in it now and the median, p75 and p90 of how long it takes, and clicking a stage lists what is in it. Its Review Velocity section charts for each person the reviews requested of them and the reviews they gave, week by week, and clicking a name opens that person's page.
+A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews and issues. The page opens with the flow of stages work passes through, from Triage and Assign ownership on issues to Implement change, Prepare pull request, Code review and Merge decision on pull requests, each with how many are in it now and the median, p75 and p90 of how long it takes, and clicking a stage lists what is in it. Under it, PR Velocity charts for each person the pull requests they opened and the ones that merged, and Review Velocity the reviews requested of them and the reviews they gave, week by week, with the quietest people folded into rows of counts. Clicking a name opens that person's page.
 
 Source: [`bb-plugin-contributor-dashboard`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-contributor-dashboard)
 
@@ -10,13 +10,13 @@ Source: [`bb-plugin-contributor-dashboard`](https://github.com/danielbachhuber/b
 
 ### Six weeks
 
-Six weeks, the default: one small chart per person, alphabetical, all on one scale.
+Six weeks, the default: a chart per person in each section, busiest first, and the quiet tail folded into rows of counts.
 
 ![Six weeks](page--six-weeks.png)
 
 ### Six weeks hovered
 
-Hovering a week shows that week's requested and given counts.
+Hovering a week shows that week's counts for the person hovered.
 
 ![Six weeks hovered](page--six-weeks-hovered.png)
 
@@ -73,3 +73,23 @@ One stage's page: how long it took, how long the queue has waited, what is in it
 A stage with nothing waiting: the queue chart is empty and the list says so.
 
 ![Stage page clear](page--stage-page-clear.png)
+
+## Velocity section
+
+### Folded
+
+The quiet people are rows of counts: a line under a tenth of the scale has no shape to read.
+
+![Folded](velocity-section--folded.png)
+
+### Show all
+
+Show all draws everyone, on the same scale, however flat that leaves them.
+
+![Show all](velocity-section--show-all.png)
+
+### Empty
+
+Nobody opened anything in the period.
+
+![Empty](velocity-section--empty.png)
