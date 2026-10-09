@@ -2,7 +2,7 @@
 
 # Weekly Review
 
-One page of what you actually did this week, gathered at 7am and 1pm on weekdays, sorted into workstreams by rules you refine, and set against the priorities in last week's entry, to write the journal entry from. It sends those priorities to the Now page, with each one's hours, and shows which you checked off there. A skill drafts the entry from the week, in the same format as your previous entries, for you to paste in.
+One page of what you actually did this week, gathered at 7am and 1pm on weekdays, sorted into workstreams by rules you refine, and set against the priorities in last week's entry, to write the journal entry from. It sends those priorities to the Now page, with each one's hours, and shows which you checked off there.
 
 Source: [`bb-plugin-weekly-review`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-weekly-review)
 
