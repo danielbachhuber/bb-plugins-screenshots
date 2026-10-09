@@ -73,3 +73,15 @@ Every label the control can show, from no sync yet to days old, and the button w
 Where the control goes: the right end of a page's title bar, across from its name.
 
 ![In a title bar](sync-status--in-a-title-bar.png)
+
+### Usage
+
+Clicking the label opens what the past hour of syncs cost on GitHub: the total, a bar per sync with one hovered, and what the account has left. Here a panel spending about 100 points a sync, with one Refresh between two scheduled syncs.
+
+![Usage](sync-status--usage.png)
+
+### Usage states
+
+The summary for a cheap panel, for one with syncs that could not be measured and a gap where none ran, and for an hour with no syncs.
+
+![Usage states](sync-status--usage-states.png)
