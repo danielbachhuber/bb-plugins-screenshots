@@ -2,7 +2,7 @@
 
 # Issue Sweep
 
-Open GitHub issues assigned to you, split into what needs you and everything else grouped by board status, with local notes, new comment counts, and the comments a click away. Needs gh-context.
+Open GitHub issues assigned to you, split into what needs you and everything else grouped by board status, with local notes, an On hold box that sinks an issue to the bottom, new comment counts, and the comments a click away. Needs gh-context.
 
 Source: [`bb-plugin-issue-sweep`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-issue-sweep)
 
@@ -16,7 +16,7 @@ Four issues assigned to you. The one with new comments, the one with a thread, a
 
 ### Rows
 
-Every run the list can draw: new comments, stale, working, and to start under Needs you; waiting on review, later, and blocked grouped by status beside them. Rows show a parent chip, sub-issue and task counts, a status the stages do not name, issues off the board, and "No project here" where nothing is checked out. Then the same list across two repositories, a thread being started with a timer running, and the panel without Harvest.
+Every run the list can draw: new comments, stale, working, and to start under Needs you, then two issues on hold at its bottom, one with a note and one without; waiting on review, later, and blocked grouped by status beside them. Rows show a parent chip, sub-issue and task counts, a status the stages do not name, issues off the board, and "No project here" where nothing is checked out. Then the same list across two repositories, a thread being started with a timer running, and the panel without Harvest.
 
 ![Rows](issue-list--rows.png)
 
