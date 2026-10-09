@@ -11,7 +11,7 @@ small history while the visual history is still available.
 | Plugin | What it does | Screenshots |
 | --- | --- | --- |
 | [component-library](component-library/README.md) | UI that several plugins draw the same way, starting with the sync status in a page's title bar. | 6 stories |
-| [Contributor Dashboard](contributor-dashboard/README.md) | A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews and issues. | 14 stories |
+| [Contributor Dashboard](contributor-dashboard/README.md) | A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews and issues. | 15 stories |
 | [Diff Comment](diff-comment/README.md) | Leave review comments inline on a thread's diff, then have the agent work through them one at a time. | 6 stories |
 | [Dynamic UI](dynamic-ui/README.md) | Lets a skill show its results as a list above the thread's composer, each item opening in the side panel with its details and buttons: send a reply to the thread, open a new thread, run a confirmed command, or open a link. | 54 stories |
 | [GitHub Context](gh-context/README.md) | A banner above the composer showing the thread's pull request and its reviewers, the GitHub issues it works on, its changes, and a Harvest timer, in place of bb's own. | 5 stories |
