@@ -250,6 +250,12 @@ Revise pressed: the banner says it was sent, until the agent publishes the next 
 
 ![Status just revised](view--status-just-revised.png)
 
+### Status republished
+
+The next round published after an edited Revise: the card starts from the agent's new text, not the copy the user sent with Revise.
+
+![Status republished](view--status-republished.png)
+
 ### Section thread coordinator
 
 A section drafted in a thread of its own, opened in the thread that published the view: Open, named for the section's thread, takes the place of Start thread.
