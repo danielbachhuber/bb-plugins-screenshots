@@ -85,3 +85,9 @@ Clicking the label opens what the past hour of syncs cost on GitHub: the total, 
 The summary for a cheap panel, for one with syncs that could not be measured and a gap where none ran, and for an hour with no syncs.
 
 ![Usage states](sync-status--usage-states.png)
+
+### Usage by service
+
+A plugin that calls several services, as Now does, counts calls rather than GitHub points: each sync's bar stacks its calls by service, the legend gives the hour's total for each, and the calls the page's buttons made between syncs are listed under the chart.
+
+![Usage by service](sync-status--usage-by-service.png)

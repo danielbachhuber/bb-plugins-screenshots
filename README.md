@@ -10,7 +10,7 @@ small history while the visual history is still available.
 
 | Plugin | What it does | Screenshots |
 | --- | --- | --- |
-| [component-library](component-library/README.md) | UI that several plugins draw the same way, starting with the sync status in a page's title bar. | 12 stories |
+| [component-library](component-library/README.md) | UI that several plugins draw the same way, starting with the sync status in a page's title bar. | 13 stories |
 | [Contributor Dashboard](contributor-dashboard/README.md) | A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews, issues and releases. | 16 stories |
 | [Diff Comment](diff-comment/README.md) | Leave review comments inline on a thread's diff, then have the agent work through them one at a time. | 6 stories |
 | [Diff Viewed](diff-viewed/README.md) | Adds a Viewed checkbox to each file in the changes panel, so a reviewed file collapses, dims, and stays that way until its diff changes, with a count of files viewed so far, an Only unviewed filter that hides reviewed files, and two-way sync with GitHub's Viewed boxes on the thread's pull request, which marks a file viewed on GitHub once you push the diff you marked in bb. | 4 stories |
