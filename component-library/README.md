@@ -6,6 +6,32 @@ UI that several plugins draw the same way, starting with the sync status in a pa
 
 Source: [`component-library`](https://github.com/danielbachhuber/bb-plugins/tree/main/component-library)
 
+## Date range
+
+### Empty
+
+Closed, with nothing picked: a button the width of its placeholder.
+
+![Empty](date-range--empty.png)
+
+### Picked
+
+Closed, with a range applied: the button names the days it covers.
+
+![Picked](date-range--picked.png)
+
+### Open
+
+Open on a range, two months at a time, with the days outside it disabled.
+
+![Open](date-range--open.png)
+
+### Open empty
+
+Open with nothing picked yet, so Apply is still disabled.
+
+![Open empty](date-range--open-empty.png)
+
 ## Segmented
 
 ### States

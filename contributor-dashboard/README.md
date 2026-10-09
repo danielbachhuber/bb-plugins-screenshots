@@ -2,7 +2,7 @@
 
 # Contributor Dashboard
 
-A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews and issues. The page opens with the flow of stages work passes through, from Triage and Assign ownership on issues to Implement change, Prepare pull request, Code review and Merge decision on pull requests, each with how many are in it now and the median, p75 and p90 of how long it takes, and clicking a stage lists what is in it. Under it, PR Velocity charts for each person the pull requests they opened and the ones that merged, and Review Velocity the reviews requested of them and the reviews they gave, by day over 1 and 3 weeks, by week over 6 and 12, and by month over 6 months and a year, with the quietest people folded into rows of counts. Clicking a name opens that person's page.
+A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews and issues. The page opens with the flow of stages work passes through, from Triage and Assign ownership on issues to Implement change, Prepare pull request, Code review and Merge decision on pull requests, each with how many are in it now and the median, p75 and p90 of how long it takes, and clicking a stage lists what is in it. Under it, PR Velocity charts for each person the pull requests they opened and the ones that merged, and Review Velocity the reviews requested of them and the reviews they gave, over 2 weeks, 6 weeks, 3 months, or a range of dates you pick, drawn by day, week or month to suit the span, with the quietest people folded into rows of counts. Clicking a name opens that person's page.
 
 Source: [`bb-plugin-contributor-dashboard`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-contributor-dashboard)
 
@@ -20,17 +20,23 @@ Hovering a week shows that week's counts for the person hovered.
 
 ![Six weeks hovered](page--six-weeks-hovered.png)
 
-### One year
+### Three months
 
-A year, drawn by month.
+Three months, the longest preset, drawn by week.
 
-![One year](page--one-year.png)
+![Three months](page--three-months.png)
 
-### One week
+### Two weeks
 
-One week, drawn by day: the shortest period the picker offers.
+Two weeks, drawn by day: the shortest preset.
 
-![One week](page--one-week.png)
+![Two weeks](page--two-weeks.png)
+
+### Custom range
+
+A range someone picked, which no preset covers: a quarter drawn by week, with the dates on the button.
+
+![Custom range](page--custom-range.png)
 
 ### First sync
 
