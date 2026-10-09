@@ -16,7 +16,7 @@ Closed, with nothing picked: a button the width of its placeholder.
 
 ### Picked
 
-Closed, with a range applied: the button names the days it covers.
+Closed, with a range applied: the button names the days it covers, and the cross beside it drops the range.
 
 ![Picked](date-range--picked.png)
 
