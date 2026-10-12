@@ -91,3 +91,11 @@ The summary for a cheap panel, for one with syncs that could not be measured and
 A plugin that calls several services, as Now does, counts calls rather than GitHub points: each sync's bar stacks its calls by service, the legend gives the hour's total for each, and the calls the page's buttons made between syncs are listed under the chart.
 
 ![Usage by service](sync-status--usage-by-service.png)
+
+## Top bar
+
+### States
+
+A page's counts in bb's top bar, beside the right-panel toggle: its icon, the urgent and due-today counts as in the sidebar, then the total. Clicking it opens the page, and it shows as current while that page is open.
+
+![States](top-bar--states.png)
