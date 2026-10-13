@@ -2,7 +2,7 @@
 
 # Tokenomics
 
-Graphs how many tokens your threads used over the past day, three days, or week, shows where their turn time went, lists each thread's share, puts a sparkline of each thread's token use over time in its header that opens a summary of which of your messages used the most tokens and time, and shows a meter above a thread's composer once its context passes a size you set, with a button that compacts it, counting those threads in amber and red in the sidebar. The bb tokenomics command prints the same numbers per thread for scripts.
+Understand what your threads cost in tokens and time, so you can see where it goes and cut what isn't worth it. Each thread's header gets a sparkline of its token use that opens a summary of which of your messages used the most tokens and time. Past a context size you set, a meter above the composer offers to compact the thread, and the sidebar counts those threads in amber and red. A Tokenomics page graphs token use by hour or day over the past day, three days, or week, shows where turn time went, and ranks the threads behind it. The bb tokenomics command prints the same numbers for scripts.
 
 Source: [`bb-plugin-tokenomics`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-tokenomics)
 
@@ -63,3 +63,9 @@ The button where bb draws it, in a thread header's action row, with its summary 
 The meter above a thread's composer once its context passes the warning setting, 300K tokens here, and red past the error setting, 550K, with a button that compacts the thread.
 
 ![Context meter states](page--context-meter-states.png)
+
+### Thread with meter
+
+A thread whose context has grown past the error setting: the header's sparkline and total, and the meter above the composer with Compact.
+
+![Thread with meter](page--thread-with-meter.png)
