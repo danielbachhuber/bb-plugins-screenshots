@@ -74,6 +74,12 @@ Collapsed to one line once two threads are open.
 
 ![Self improve collapsed](thread--self-improve-collapsed.png)
 
+### Dependabot in chat
+
+Before: the assessment written out in chat, ending in a question to answer by typing.
+
+![Dependabot in chat](thread--dependabot-in-chat.png)
+
 ### Dependabot
 
 One pull request above the composer, with its main button.
@@ -139,6 +145,30 @@ Each section worked in a thread of its own: in the thread that published the vie
 The Need section's own thread: the same card above its composer and in its side panel, from the view the other thread published. Revise and the note stay here; Accept goes back.
 
 ![Grant section own thread](thread--grant-section-own-thread.png)
+
+### Config audit in chat
+
+Before: the audit's findings written out in chat, to be answered by typing.
+
+![Config audit in chat](thread--config-audit-in-chat.png)
+
+### Config audit item open
+
+After: the same findings as rows above the composer, one open in the side panel with the doc's text next to the edit.
+
+![Config audit item open](thread--config-audit-item-open.png)
+
+### Milestone triage in chat
+
+Before: thirteen draft comments written out in chat, one after another.
+
+![Milestone triage in chat](thread--milestone-triage-in-chat.png)
+
+### Milestone triage item open
+
+After: the same thirteen issues grouped by outcome above the composer, one open with its comment and buttons.
+
+![Milestone triage item open](thread--milestone-triage-item-open.png)
 
 ## View
 
