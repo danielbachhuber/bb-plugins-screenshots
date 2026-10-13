@@ -2,7 +2,7 @@
 
 # Presentations
 
-Give a talk from a bb thread. Start a presentation from the Presentations page, and the thread writes its slides as numbered markdown files in one folder. A Present button in the thread header shows them in a panel beside the chat, with each slide file listed for editing, a full-screen mode, and a separate window for the projector. Slides reload as the agent edits them.
+Give a talk from a bb thread. Start a presentation from the Presentations page, and the thread writes its slides as numbered markdown files in one folder. A Present button in the thread header shows them in a panel beside the chat, with each slide file listed for editing, a full-screen mode, and a separate window for the projector. Slides reload as the agent edits them, and a style.css in the folder restyles the deck.
 
 Source: [`bb-plugin-presentations`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-presentations)
 
@@ -25,6 +25,12 @@ In a narrow panel the slide files move below the slide.
 A slide with an image from the deck folder.
 
 ![Panel image](deck--panel-image.png)
+
+### Panel styled
+
+A deck with a style.css in its folder: its rules restyle the slides, and nothing else on the page.
+
+![Panel styled](deck--panel-styled.png)
 
 ### Panel empty
 
