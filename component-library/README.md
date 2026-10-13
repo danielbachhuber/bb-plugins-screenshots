@@ -60,6 +60,20 @@ Counts of rows past a warning, in amber, and past an error, in red, for a page w
 
 ![Levels](sidebar-count--levels.png)
 
+## Start thread
+
+### Preview
+
+The card above the composer in every start-thread dialog, saying which row the thread is for. bb's composer itself sits below it.
+
+![Preview](start-thread--preview.png)
+
+### Workspace
+
+Where the thread runs, when the plugin decides that itself and hides the composer's project, environment and branch pickers.
+
+![Workspace](start-thread--workspace.png)
+
 ## Sync status
 
 ### States
