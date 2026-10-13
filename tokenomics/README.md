@@ -2,7 +2,7 @@
 
 # Tokenomics
 
-Understand what your threads cost in tokens and time, so you can see where it goes and cut what isn't worth it. Each thread's header gets a sparkline of its token use that opens a summary of which of your messages used the most tokens and time. Past a context size you set, a meter above the composer offers to compact the thread, and the sidebar counts those threads in amber and red. A Tokenomics page graphs token use by hour or day over the past day, three days, or week, shows where turn time went, and ranks the threads behind it. The bb tokenomics command prints the same numbers for scripts.
+Understand what your threads cost in tokens and time, so you can cut what isn't worth it. Each thread's header shows a sparkline of its token use that opens a summary of which of your messages used the most tokens and time. Once a thread's context passes a size you set, a meter above the composer offers to compact it, and the sidebar counts those threads. A Tokenomics page charts tokens by hour or day, shows where turn time went, and ranks threads by use. The bb tokenomics command prints the same numbers for scripts.
 
 Source: [`bb-plugin-tokenomics`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-tokenomics)
 

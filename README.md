@@ -25,7 +25,7 @@ small history while the visual history is still available.
 | [Super Diff](super-diff/README.md) | Review a branch one concern at a time. | 18 stories |
 | [sweep-ui](sweep-ui/README.md) | The list Issue Sweep, PR Sweep, and Review Sweep draw each tab with: summary squares, rows ordered Now, Next, and Later, and a stage track. | 3 stories |
 | [Thread Overview](thread-overview/README.md) | A band under each thread's header saying what the thread is for, what has been done so far, and which step it is on, written by the agent as it works and edited by you in place. | 1 story |
-| [Tokenomics](tokenomics/README.md) | Understand what your threads cost in tokens and time, so you can see where it goes and cut what isn't worth it. | 12 stories |
+| [Tokenomics](tokenomics/README.md) | Understand what your threads cost in tokens and time, so you can cut what isn't worth it. | 12 stories |
 | [Weekly Review](weekly-review/README.md) | One page of what you actually did this week, gathered at 7am and 1pm on weekdays, sorted into workstreams by rules you refine, and set against the priorities in last week's entry, to write the journal entry from. | 8 stories |
 
 Each directory is a plugin or a shared package, named for the first part of
