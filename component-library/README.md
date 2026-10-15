@@ -74,6 +74,12 @@ Where the thread runs, when the plugin decides that itself and hides the compose
 
 ![Workspace](start-thread--workspace.png)
 
+### Suggested skills
+
+The skills a plugin suggests for a row, above the composer. A picked chip is filled and ticked, and puts a line naming its skill in the prompt.
+
+![Suggested skills](start-thread--suggested-skills.png)
+
 ## Sync status
 
 ### States
