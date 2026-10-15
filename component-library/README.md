@@ -110,6 +110,6 @@ A plugin that calls several services, as Now does, counts calls rather than GitH
 
 ### States
 
-A page's counts in bb's top bar, beside the right-panel toggle: its icon, the urgent and due-today counts as in the sidebar, then the total. Clicking it opens the page, and it shows as current while that page is open.
+A page's counts at the top left of bb's window, just after the sidebar toggle: its icon, the urgent and due-today counts as in the sidebar, then the total. Clicking it opens the page, and it shows as current while that page is open.
 
 ![States](top-bar--states.png)
