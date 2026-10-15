@@ -122,6 +122,18 @@ After Build it: the row says so, and the panel keeps the note that went with it.
 
 ![Before after sent](thread--before-after-sent.png)
 
+### Closing step waiting
+
+A review with its verdict as the closing step: under the findings rather than first. Opened early, it says what is left and its buttons wait.
+
+![Closing step waiting](thread--closing-step-waiting.png)
+
+### Closing step ready
+
+Every finding handled: the closing step opens, its summary tallies what was done, and its buttons work.
+
+![Closing step ready](thread--closing-step-ready.png)
+
 ### Visual review now round
 
 Picking a design: four directions for a summary above the Now list, with one square per row picked.
@@ -336,7 +348,7 @@ The lockfile's raw diff, one click from its packages, here split side by side.
 
 ### Changes code review
 
-A code review finding: the hunk it is about, above the comment to post.
+A code review finding: the pull request's hunk under In this PR, the fix it suggests in its own tinted block, then the comment to post.
 
 ![Changes code review](view--changes-code-review.png)
 
