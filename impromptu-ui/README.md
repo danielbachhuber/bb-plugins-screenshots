@@ -110,6 +110,18 @@ A fresh review: the original on top, two directions under it.
 
 ![Visual review](thread--visual-review.png)
 
+### Before after
+
+One proposed change: Before and After in the same place, flipped with the tabs or the arrow keys, and Build it to go ahead.
+
+![Before after](thread--before-after.png)
+
+### Before after sent
+
+After Build it: the row says so, and the panel keeps the note that went with it.
+
+![Before after sent](thread--before-after-sent.png)
+
 ### Visual review now round
 
 Picking a design: four directions for a summary above the Now list, with one square per row picked.
