@@ -31,3 +31,9 @@ A thread with no open pull request: every mark is Local, checked or not, and goe
 While GitHub is still answering: bb's own marks show at once, a spinner holds the Local icon's place, and the viewed count stays muted.
 
 ![Loading](changes-panel--loading.png)
+
+### Only unviewed
+
+Only unviewed, checked at the bottom of the range dropdown, hides the three viewed files. The toolbar still counts 3/6 viewed.
+
+![Only unviewed](changes-panel--only-unviewed.png)
