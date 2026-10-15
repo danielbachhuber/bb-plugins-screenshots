@@ -2,7 +2,7 @@
 
 # Diff Viewed
 
-Keep your place in a long diff with a Viewed checkbox on each file, shared with GitHub's Viewed boxes on the thread's pull request.
+Use a Viewed checkbox on each file to keep track of what you've read in a long diff, synced with GitHub on the thread's pull request.
 
 Source: [`bb-plugin-diff-viewed`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-diff-viewed)
 
