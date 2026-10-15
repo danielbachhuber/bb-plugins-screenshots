@@ -110,6 +110,12 @@ A fresh review: the original on top, two directions under it.
 
 ![Visual review](thread--visual-review.png)
 
+### Visual review now round
+
+Picking a design: four directions for a summary above the Now list, with one square per row picked.
+
+![Visual review now round](thread--visual-review-now-round.png)
+
 ### Visual review filled in
 
 One picked, with notes, ready to send.
