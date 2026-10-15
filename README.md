@@ -10,6 +10,7 @@ small history while the visual history is still available.
 
 | Plugin | What it does | Screenshots |
 | --- | --- | --- |
+| [Automation Palette](automation-palette/README.md) | Run any bb automation from the quick palette, without opening the Automations page. | 3 stories |
 | [component-library](component-library/README.md) | UI that several plugins draw the same way, starting with the sync status in a page's title bar. | 16 stories |
 | [Contributor Dashboard](contributor-dashboard/README.md) | A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews, issues and releases. | 16 stories |
 | [Diff Comment](diff-comment/README.md) | Leave review comments inline on a thread's diff, then have the agent work through them one at a time. | 6 stories |
