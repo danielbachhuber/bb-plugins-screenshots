@@ -80,6 +80,18 @@ The skills a plugin suggests for a row, above the composer. A picked chip is fil
 
 ![Suggested skills](start-thread--suggested-skills.png)
 
+### Starting
+
+A row while its thread starts. The box has closed, Open thread is greyed where Start thread was, and the thread line says Starting with the title the row is known by, until the thread exists.
+
+![Starting](start-thread--starting.png)
+
+### Did not start
+
+When no thread started: the box opens again with the prompt put back, and the reason at the top.
+
+![Did not start](start-thread--did-not-start.png)
+
 ## Sync status
 
 ### States
