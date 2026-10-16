@@ -14,9 +14,9 @@ small history while the visual history is still available.
 | [component-library](component-library/README.md) | UI that several plugins draw the same way, starting with the sync status in a page's title bar. | 17 stories |
 | [Contributor Dashboard](contributor-dashboard/README.md) | A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews, issues and releases. | 16 stories |
 | [Diff Comment](diff-comment/README.md) | Leave review comments inline on a thread's diff, then have the agent work through them one at a time. | 6 stories |
-| [Diff Viewed](diff-viewed/README.md) | Keep your place in a long diff with a Viewed checkbox on each file, shared with GitHub's Viewed boxes on the thread's pull request. | 4 stories |
+| [Diff Viewed](diff-viewed/README.md) | Use a Viewed checkbox on each file to keep track of what you've read in a long diff, synced with GitHub on the thread's pull request. | 5 stories |
 | [GitHub Context](gh-context/README.md) | A banner above the composer showing the thread's pull request and its reviewers, the GitHub issues it works on, its changes, and a Harvest timer, in place of bb's own. | 5 stories |
-| [Impromptu UI](impromptu-ui/README.md) | Generate interfaces for what you need to process or act on, instead of walls of text in chat. | 61 stories |
+| [Impromptu UI](impromptu-ui/README.md) | Generate interfaces for what you need to process or act on, instead of walls of text in chat. | 65 stories |
 | [Issue Sweep](issue-sweep/README.md) | Open GitHub issues assigned to you, split into what needs you and everything else grouped by board status, with local notes, an On hold box that sinks an issue to the bottom, new comment counts, and the comments a click away. | 6 stories |
 | [Markdown Editor](markdown-editor/README.md) | Edit markdown files in the tab bb opens them in, preview the result, and save with Cmd+S without overwriting an agent's edits. | 7 stories |
 | [Now](now/README.md) | One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. | 12 stories |
