@@ -22,7 +22,7 @@ Every run the list can draw: needs you, ready to merge, working, drafts, and wai
 
 ### Comments drawer
 
-The drawer a row's comment count opens. The review that requested changes comes first, then the threads still open, unanswered ones marked in red, then general comments. Resolved threads wait behind "1 resolved". Each entry opens on GitHub. Then the drawer while it reads, when GitHub fails, and with nothing open.
+The drawer a row's comment count opens. The review that requested changes comes first, then the threads still open, unanswered ones marked in red, then general comments. Resolved threads wait behind "1 resolved". Each entry opens on GitHub. Then a long list, which opens on its newest 10 under "Show 37 earlier", the drawer while it reads, when GitHub fails, and with nothing open.
 
 ![Comments drawer](pr-list--comments-drawer.png)
 
