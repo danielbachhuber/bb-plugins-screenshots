@@ -32,6 +32,14 @@ Open with nothing picked yet, so Apply is still disabled.
 
 ![Open empty](date-range--open-empty.png)
 
+## Day menu
+
+### Snooze
+
+As Review Sweep's Snooze draws it: three quick days with the day in words beside each, a box for any later day, and a note.
+
+![Snooze](day-menu--snooze.png)
+
 ## Segmented
 
 ### States

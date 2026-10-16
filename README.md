@@ -11,7 +11,7 @@ small history while the visual history is still available.
 | Plugin | What it does | Screenshots |
 | --- | --- | --- |
 | [Automation Palette](automation-palette/README.md) | Run any bb automation from the quick palette, without opening the Automations page. | 3 stories |
-| [component-library](component-library/README.md) | UI that several plugins draw the same way, starting with the sync status in a page's title bar. | 19 stories |
+| [component-library](component-library/README.md) | UI that several plugins draw the same way, starting with the sync status in a page's title bar. | 20 stories |
 | [Contributor Dashboard](contributor-dashboard/README.md) | A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews, issues and releases. | 16 stories |
 | [Diff Comment](diff-comment/README.md) | Leave review comments inline on a thread's diff, then have the agent work through them one at a time. | 6 stories |
 | [Diff Viewed](diff-viewed/README.md) | Use a Viewed checkbox on each file to keep track of what you've read in a long diff, synced with GitHub on the thread's pull request. | 5 stories |
@@ -23,7 +23,7 @@ small history while the visual history is still available.
 | [Plugin Shelf](plugin-shelf/README.md) | Lists the plugins in your bb-plugins checkout as published and current, published with commits not yet released (with those commits), or personal, with each published plugin's install count, on a My plugins page in bb's Plugins screen, with a button on each to start a thread on it and one to publish an update where one is due. | 4 stories |
 | [PR Sweep](pr-sweep/README.md) | Open pull requests you authored in one list, newest first with the overdue and in-progress ones pinned on top, with local notes, new comment counts, review comments a click away, a Dismiss for failing checks you cannot fix, and where a stacked pull request sits in its stack. | 5 stories |
 | [Presentations](presentations/README.md) | Give a talk from a bb thread. | 7 stories |
-| [Review Sweep](review-sweep/README.md) | Open pull requests waiting on a review from you in one list, ordered Now, Next, and Later by what needs you, oldest request first, with local notes, new comment counts, comments a click away, and where a stacked pull request sits in its stack, an Ignore that sinks a request to one line until you are asked again, plus Batch to start reviews for several at once. | 6 stories |
+| [Review Sweep](review-sweep/README.md) | Open pull requests waiting on a review from you in one list, ordered Now, Next, and Later by what needs you, oldest request first, with local notes, new comment counts, comments a click away, and where a stacked pull request sits in its stack, a Snooze that sinks a request to one line until a day you pick, plus Batch to start reviews for several at once. | 6 stories |
 | [Super Diff v1](super-diff-v1/README.md) | Review a branch one concern at a time. | 18 stories |
 | [sweep-ui](sweep-ui/README.md) | The list Issue Sweep, PR Sweep, and Review Sweep draw each tab with: summary squares, rows ordered Now, Next, and Later, and a stage track. | 3 stories |
 | [Thread Overview](thread-overview/README.md) | A band under each thread's header saying what the thread is for, what has been done so far, and which step it is on, written by the agent as it works and edited by you in place. | 1 story |
