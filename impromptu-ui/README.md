@@ -56,6 +56,18 @@ After deciding: Oat milk added and moved into the list, Bananas skipped with Und
 
 ![Staples after](thread--staples-after.png)
 
+### Refine scan
+
+The refine-impromptu-ui skill's scan: a thread still waiting on an answer, and three fixes, each saying where it lands and how many threads showed it.
+
+![Refine scan](thread--refine-scan.png)
+
+### Refine scan item open
+
+A fix opened: what goes wrong now, a real moment, and the exact edit to the instructions, with Make this edit.
+
+![Refine scan item open](thread--refine-scan-item-open.png)
+
 ### Self improve
 
 Five findings above the composer.
