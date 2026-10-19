@@ -200,6 +200,12 @@ After: the same thirteen issues grouped by outcome above the composer, one open 
 
 ![Milestone triage item open](thread--milestone-triage-item-open.png)
 
+### Three prs at once
+
+Before, three finished fixes written out in chat, each opened by typing which one. After, one card per pull request, each with its diff and a button that commits, pushes, and opens it: the first is already open, and the demo accounts fix is open in the side panel.
+
+![Three prs at once](thread--three-prs-at-once.png)
+
 ## View
 
 ### Nothing picked
