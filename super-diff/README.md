@@ -10,9 +10,15 @@ Source: [`bb-plugin-super-diff`](https://github.com/danielbachhuber/bb-plugins/t
 
 ### Overview
 
-A Super Diff of a 57-file rename: the row, the annotation list, then six concerns, each with what its files' changes are and how many of them Diff Viewed has marked viewed. In bb, each concern's diff cards follow its heading.
+A Super Diff of a 57-file rename: the row, the annotation list, the first concern with what each file's change is, and one of its files in bb's diff with an annotation under the line it explains.
 
 ![Overview](super-diff--overview.png)
+
+### All concerns
+
+All six concerns of the same Super Diff, each with what its files' changes are and how many of them Diff Viewed has marked viewed. In bb, each concern's diff cards follow its heading.
+
+![All concerns](super-diff--all-concerns.png)
 
 ### Not generated
 
