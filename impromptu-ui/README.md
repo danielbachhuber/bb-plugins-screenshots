@@ -206,6 +206,36 @@ Before, three finished fixes written out in chat, each opened by typing which on
 
 ![Three prs at once](thread--three-prs-at-once.png)
 
+### Inline question
+
+A question with its answers right above the composer. Hover an answer for what it does, or type something else.
+
+![Inline question](thread--inline-question.png)
+
+### Inline answered
+
+Answered: the buttons give way to a green banner with the answer sent.
+
+![Inline answered](thread--inline-answered.png)
+
+### Inline answered in own words
+
+Answered in the user's own words, from the field under the buttons.
+
+![Inline answered in own words](thread--inline-answered-in-own-words.png)
+
+### Inline failed
+
+A send that failed: red over the buttons, which stay so the answer can be sent again.
+
+![Inline failed](thread--inline-failed.png)
+
+### Inline two questions
+
+Two questions in one view, the first answered.
+
+![Inline two questions](thread--inline-two-questions.png)
+
 ## View
 
 ### Nothing picked
