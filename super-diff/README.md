@@ -8,6 +8,12 @@ Source: [`bb-plugin-super-diff`](https://github.com/danielbachhuber/bb-plugins/t
 
 ## Super diff
 
+### Overview
+
+A Super Diff of a 57-file rename: the row, the annotation list, then six concerns, each with what its files' changes are and how many of them Diff Viewed has marked viewed. In bb, each concern's diff cards follow its heading.
+
+![Overview](super-diff--overview.png)
+
 ### Not generated
 
 Before anything is generated: bb's own diff, with Generate Super Diff on the left of the row.
