@@ -40,9 +40,15 @@ A Super Diff is showing: the toggle switches back to bb's own list, the line cou
 
 ### Out of date
 
-Two files have joined the diff since the Super Diff was written, so the row turns amber and offers Regenerate.
+Two files have joined the diff and two have been edited since the Super Diff was written, so the row turns amber and offers Regenerate, and the concern with edited files says how many.
 
 ![Out of date](super-diff--out-of-date.png)
+
+### Changed files
+
+A concern whose files were edited after the Super Diff was written: each one is marked changed, since its summary may no longer be right.
+
+![Changed files](super-diff--changed-files.png)
 
 ### Annotation list
 
