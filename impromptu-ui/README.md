@@ -2,7 +2,7 @@
 
 # Impromptu UI
 
-Generate interfaces for what you need to process or act on, instead of walls of text in chat.
+Turns your agent's walls of text into interfaces you can click.
 
 Source: [`bb-plugin-impromptu-ui`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-impromptu-ui)
 
