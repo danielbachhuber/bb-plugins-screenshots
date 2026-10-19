@@ -10,13 +10,13 @@ Source: [`bb-plugin-super-diff`](https://github.com/danielbachhuber/bb-plugins/t
 
 ### Overview
 
-A Super Diff of a 57-file rename: the row, the annotation list, the first concern with what each file's change is, and one of its files in bb's diff with an annotation under the line it explains.
+A Super Diff of a 57-file rename: the row, the first concern with what each file's change is and its annotation, and one of its files in bb's diff with that annotation under the line it explains.
 
 ![Overview](super-diff--overview.png)
 
 ### All concerns
 
-All six concerns of the same Super Diff, each with what its files' changes are and how many of them Diff Viewed has marked viewed. In bb, each concern's diff cards follow its heading.
+All six concerns of the same Super Diff, each with what its files' changes are, how many of them Diff Viewed has marked viewed, and its annotations. In bb, each concern's diff cards follow its heading.
 
 ![All concerns](super-diff--all-concerns.png)
 
@@ -46,7 +46,7 @@ Two files have joined the diff since the Super Diff was written, so the row turn
 
 ### Annotation list
 
-The list at the top of a Super Diff: each annotation's number, title, and line, which jumps to its card. One note's line has left the diff.
+A concern's annotations, under its file list: each one's number, title, and line, which jumps to its card. One note's line has left the diff.
 
 ![Annotation list](super-diff--annotation-list.png)
 
