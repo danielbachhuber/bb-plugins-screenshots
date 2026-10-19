@@ -10,7 +10,7 @@ Source: [`bb-plugin-super-diff`](https://github.com/danielbachhuber/bb-plugins/t
 
 ### Overview
 
-A Super Diff of a 57-file rename: the row, the first concern with what each file's change is and its annotation, and one of its files in bb's diff with that annotation under the line it explains.
+A Super Diff of a 57-file rename: the row with every concern listed, the first concern with what each file's change is and its annotation, and one of its files in bb's diff with that annotation under the line it explains.
 
 ![Overview](super-diff--overview.png)
 
@@ -34,7 +34,7 @@ While the thread's agent reads the diff and writes the Super Diff.
 
 ### Showing super diff
 
-A Super Diff is showing: the toggle switches back to bb's own list, and the line counts what the agent wrote.
+A Super Diff is showing: the toggle switches back to bb's own list, the line counts what the agent wrote, and each concern is listed with how many of its files are viewed. Clicking one jumps to it; the one at the top of the list is highlighted.
 
 ![Showing super diff](super-diff--showing-super-diff.png)
 
