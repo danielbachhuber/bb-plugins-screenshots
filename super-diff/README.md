@@ -2,7 +2,7 @@
 
 # Super Diff
 
-Group the Diff tab by concern, with an explanation for each group and notes on the trickier code, written by the thread's agent.
+Group the Diff tab by concern, with an explanation for each group and notes on tricky code, plus a note on any line you ask about.
 
 Source: [`bb-plugin-super-diff`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-super-diff)
 
@@ -55,6 +55,12 @@ A concern's annotations, under its file list: each one's number, title, and line
 A note card as it sits under the line it explains, inside the diff.
 
 ![Annotation card](super-diff--annotation-card.png)
+
+### Explain this
+
+Explain this: the card under a line while a fork of the thread writes its note, and the note once it is written, marked as one you asked for.
+
+![Explain this](super-diff--explain-this.png)
 
 ### Concern file list
 
