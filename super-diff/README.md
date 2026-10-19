@@ -43,3 +43,9 @@ The list at the top of a Super Diff: each annotation's number, title, and line, 
 A note card as it sits under the line it explains, inside the diff.
 
 ![Annotation card](super-diff--annotation-card.png)
+
+### Concern file list
+
+A concern's heading with Diff Viewed installed: its viewed count, then each file and what its change does. Files that change the same mechanical way share one line.
+
+![Concern file list](super-diff--concern-file-list.png)
