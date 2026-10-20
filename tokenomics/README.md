@@ -38,7 +38,7 @@ Right after Tokenomics starts reading the limits, before there's a pace to proje
 
 ### Limit two subscriptions
 
-Two subscriptions: each meter names its provider.
+Two subscriptions: each one's meters sit under its provider's name.
 
 ![Limit two subscriptions](page--limit-two-subscriptions.png)
 
@@ -50,17 +50,11 @@ Two subscriptions: each meter names its provider.
 
 ![Past week](page--past-week.png)
 
-### Recent threads
+### Archived threads
 
-Threads archived in the past three days, dimmed and labeled Archived.
+Over the past week, every thread in one list: active threads first, then the archived ones under their own heading, dimmed.
 
-![Recent threads](page--recent-threads.png)
-
-### Older threads
-
-Over the past week, a thread archived more than three days ago lists under Older.
-
-![Older threads](page--older-threads.png)
+![Archived threads](page--archived-threads.png)
 
 ### Empty
 
@@ -93,3 +87,9 @@ The meter above a thread's composer once its context passes the warning setting,
 A thread whose context has grown past the error setting: the header's sparkline and total, and the meter above the composer with Compact.
 
 ![Thread with meter](page--thread-with-meter.png)
+
+### Title bar
+
+The session in bb's title bar, after the other plugins' buttons: its tokens per 15 minutes from its start to its reset, so the empty space is the time left, and its percent. Once it's amber or red, the time left fills with hatched bars at the past hour's pace. Hovering shows the page's meters; clicking opens the page.
+
+![Title bar](page--title-bar.png)
