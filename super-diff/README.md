@@ -26,6 +26,12 @@ Before anything is generated: bb's own diff, with Generate Super Diff on the lef
 
 ![Not generated](super-diff--not-generated.png)
 
+### No diff
+
+The thread has no changes yet, so Generate Super Diff waits, greyed out, until it does.
+
+![No diff](super-diff--no-diff.png)
+
 ### Generating
 
 While the thread's agent reads the diff and writes the Super Diff.
