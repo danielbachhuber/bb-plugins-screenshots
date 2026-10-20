@@ -64,7 +64,7 @@ One person's page, reached by clicking their name on the dashboard.
 
 ### Person page paged
 
-A prolific author: their pull requests page 25 at a time.
+A prolific author: their pull requests page 10 at a time.
 
 ![Person page paged](page--person-page-paged.png)
 
