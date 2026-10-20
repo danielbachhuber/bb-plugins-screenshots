@@ -2,7 +2,7 @@
 
 # Tokenomics
 
-Understand what your threads cost in tokens and time, so you can cut what isn't worth it. Each thread's header shows a sparkline of its token use that opens a summary of which of your messages used the most tokens and time. Once a thread's context passes a size you set, a meter above the composer offers to compact it, and the sidebar counts those threads. A Tokenomics page charts tokens by hour or day, shows where turn time went, and ranks threads by use. The bb tokenomics command prints the same numbers for scripts.
+See what your threads cost in tokens and time, and whether your subscription's session and weekly limits will last until they reset.
 
 Source: [`bb-plugin-tokenomics`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-tokenomics)
 
@@ -17,6 +17,30 @@ Source: [`bb-plugin-tokenomics`](https://github.com/danielbachhuber/bb-plugins/t
 The past day with a busy hour hovered, so its tooltip shows.
 
 ![Past day hovered](page--past-day-hovered.png)
+
+### Limit on pace
+
+A session on pace for 95% by its reset: the meter turns amber, and the chart runs on to the reset with hatched bars at the past hour's pace.
+
+![Limit on pace](page--limit-on-pace.png)
+
+### Limit runs out
+
+A session that runs out before it resets: red, with the hatched bars red past the point it runs out.
+
+![Limit runs out](page--limit-runs-out.png)
+
+### Limit measuring
+
+Right after Tokenomics starts reading the limits, before there's a pace to project.
+
+![Limit measuring](page--limit-measuring.png)
+
+### Limit two subscriptions
+
+Two subscriptions: each meter names its provider.
+
+![Limit two subscriptions](page--limit-two-subscriptions.png)
 
 ### Past three days
 
