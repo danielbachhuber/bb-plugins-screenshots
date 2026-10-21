@@ -99,3 +99,21 @@ The session in bb's title bar, after the other plugins' buttons: its tokens per 
 Hovering the title bar's button: the meters for the session and the weekly limit, then the past day's tokens per hour, running on to the session's reset with hatched bars once it's amber or red.
 
 ![Title bar hovered](page--title-bar-hovered.png)
+
+### Window with limits
+
+The whole window: the title bar's limits open, with a session on pace to run out before it resets, over a thread whose header has its sparkline and whose context has grown past the error setting, with Compact above the composer.
+
+![Window with limits](page--window-with-limits.png)
+
+### Title bar in window
+
+The session in bb's title bar, beside the window's own buttons, with its limits open: a session on pace for 95% by its reset, so the button and the meter are amber.
+
+![Title bar in window](page--title-bar-in-window.png)
+
+### Context meter in thread
+
+A thread whose context has passed the warning setting: its last exchange, then the amber meter above the composer, with Compact.
+
+![Context meter in thread](page--context-meter-in-thread.png)
