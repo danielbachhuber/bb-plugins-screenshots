@@ -16,7 +16,7 @@ Four of six services up, one still starting, with the repository's own buttons a
 
 ### All stopped
 
-Every service stopped, as in a fresh worktree.
+Every service stopped, as in a fresh worktree, so Start all is the filled button.
 
 ![All stopped](strip--all-stopped.png)
 
@@ -34,7 +34,7 @@ A start that exited with an error shows the last lines it printed.
 
 ### Status failed
 
-The status command failed, so there are no services to show.
+The status command failed, so the bar offers Retry in place of the services.
 
 ![Status failed](strip--status-failed.png)
 
@@ -49,3 +49,9 @@ Before the first status arrives.
 The status command calls a program the checkout has not installed, as in a new worktree before its first install.
 
 ![Not set up](strip--not-set-up.png)
+
+### Failure dismissed
+
+The status command's failure was dismissed; the bar still says it couldn't read services and offers Retry.
+
+![Failure dismissed](strip--failure-dismissed.png)
