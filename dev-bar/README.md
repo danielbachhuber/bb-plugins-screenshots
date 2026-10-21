@@ -43,3 +43,9 @@ The status command failed, so there are no services to show.
 Before the first status arrives.
 
 ![Loading](strip--loading.png)
+
+### Not set up
+
+The status command calls a program the checkout has not installed, as in a new worktree before its first install.
+
+![Not set up](strip--not-set-up.png)
