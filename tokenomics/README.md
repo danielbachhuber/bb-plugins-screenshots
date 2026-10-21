@@ -93,3 +93,9 @@ A thread whose context has grown past the error setting: the header's sparkline 
 The session in bb's title bar, after the other plugins' buttons: its tokens per 15 minutes from its start to its reset, so the empty space is the time left, and two rings for the percent used: the session outside, the week inside. Once it's amber or red, the time left fills with hatched bars at the past hour's pace. Hovering shows the page's meters; clicking opens the page.
 
 ![Title bar](page--title-bar.png)
+
+### Title bar hovered
+
+Hovering the title bar's button: the meters for the session and the weekly limit, then the past day's tokens per hour, running on to the session's reset with hatched bars once it's amber or red.
+
+![Title bar hovered](page--title-bar-hovered.png)
