@@ -128,6 +128,12 @@ One proposed change: Before and After in the same place, flipped with the tabs o
 
 ![Before after](thread--before-after.png)
 
+### Before after built
+
+Work already built, against the screen it replaced: Looks good to accept it, or a note on what to change.
+
+![Before after built](thread--before-after-built.png)
+
 ### Before after sent
 
 After Build it: the row says so, and the panel keeps the note that went with it.
