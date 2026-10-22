@@ -316,6 +316,12 @@ A list view: the staples to add on top as dashed rows, each name editable before
 
 ![List fresh](view--list-fresh.png)
 
+### List descriptions
+
+Rows without a field to edit: the name beside the buttons, and its full description beneath, wrapped.
+
+![List descriptions](view--list-descriptions.png)
+
 ### List working
 
 Add running on one row.

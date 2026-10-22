@@ -17,7 +17,7 @@ small history while the visual history is still available.
 | [Diff Comment](diff-comment/README.md) | Leave review comments inline on a thread's diff, then have the agent work through them one at a time. | 6 stories |
 | [Diff Viewed](diff-viewed/README.md) | Use a Viewed checkbox on each file to keep track of what you've read in a long diff, synced with GitHub on the thread's pull request. | 5 stories |
 | [GitHub Context](gh-context/README.md) | A banner above the composer showing the thread's pull request and its reviewers, the GitHub issues it works on, its changes, and a Harvest timer, in place of bb's own. | 5 stories |
-| [Impromptu UI](impromptu-ui/README.md) | Turns your agent's walls of text into interfaces you can click. | 74 stories |
+| [Impromptu UI](impromptu-ui/README.md) | Turns your agent's walls of text into interfaces you can click. | 75 stories |
 | [Issue Sweep](issue-sweep/README.md) | Open GitHub issues assigned to you, split into what needs you and everything else grouped by board status, with local notes, an On hold box that sinks an issue to the bottom, new comment counts, and the comments a click away. | 7 stories |
 | [Markdown Editor](markdown-editor/README.md) | Edit markdown files in the tab bb opens them in, preview the result, and save with Cmd+S without overwriting an agent's edits. | 7 stories |
 | [Now](now/README.md) | One list of what needs doing now, from Todoist and your Gmail inbox, with GitHub notifications gathered per pull request or issue, showing each pull request's reviewers, and Google Docs comments per document. | 12 stories |
