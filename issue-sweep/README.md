@@ -40,7 +40,7 @@ What the panel shows when something is wrong: a failed sweep above the last good
 
 ### Comments drawer states
 
-The drawer a row's comment count opens: the issue's latest comments, oldest first, with the ones that arrived since it was last seen marked new. Each opens on GitHub. Then the drawer while it reads, when GitHub fails, and when the issue has more comments than the drawer reads.
+The drawer a row's comment count opens: the issue's latest comments, oldest first, with the ones that arrived since it was last seen marked new. Each is drawn as the Markdown it was written in, and one longer than three lines is cut there, with Show more under it. Then the drawer while it reads, when GitHub fails, and when the issue has more comments than the drawer reads.
 
 ![Comments drawer states](issue-list--comments-drawer-states.png)
 
