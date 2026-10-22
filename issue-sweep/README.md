@@ -14,6 +14,12 @@ Four issues assigned to you. The one with new comments, the one with a thread, a
 
 ![Baseline](issue-list--baseline.png)
 
+### Two boards
+
+Project boards set to "Acme Board, Octocat's Board", two boards with different columns. Each row draws only the stages its own board has: the Acme row shows Backlog, Ready, In Progress, and In Review, and the Octocat rows show Todo and In Progress. The row on neither board shows the stages of the board it would be added to.
+
+![Two boards](issue-list--two-boards.png)
+
 ### Rows
 
 Every run the list can draw: new comments, stale, working, and to start under Needs you, then two issues on hold at its bottom, one with a note and one without; waiting on review, later, and blocked grouped by status beside them. Rows show a parent chip, sub-issue and task counts, a status the stages do not name, issues off the board, and "No project here" where nothing is checked out. Then the same list across two repositories, a thread being started with a timer running, and the panel without Harvest.
