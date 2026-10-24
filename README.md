@@ -15,7 +15,7 @@ small history while the visual history is still available.
 | [Contributor Dashboard](contributor-dashboard/README.md) | A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews, issues and releases. | 18 stories |
 | [Dev Bar](dev-bar/README.md) | A status bar under a thread that starts, stops, and restarts its checkout's dev services, and stops them when its last thread is archived. | 8 stories |
 | [Diff Comment](diff-comment/README.md) | Leave review comments inline on a thread's diff, then have the agent work through them one at a time. | 6 stories |
-| [Diff Viewed](diff-viewed/README.md) | Use a Viewed checkbox on each file to keep track of what you've read in a long diff, synced with GitHub on the thread's pull request. | 5 stories |
+| [Diff Viewed Enhanced](diff-viewed/README.md) | Adds a viewed count and GitHub sync to bb's own Viewed checkboxes, so you can see how much of a long diff you've read. | 4 stories |
 | [GitHub Context](gh-context/README.md) | A banner above the composer showing the thread's pull request and its reviewers, the GitHub issues it works on, its changes, and a Harvest timer, in place of bb's own. | 5 stories |
 | [Impromptu UI](impromptu-ui/README.md) | Turns your agent's walls of text into interfaces you can click. | 75 stories |
 | [Issue Sweep](issue-sweep/README.md) | Open GitHub issues assigned to you, split into what needs you and everything else grouped by board status, with local notes, an On hold box that sinks an issue to the bottom, new comment counts, and the comments a click away. | 7 stories |

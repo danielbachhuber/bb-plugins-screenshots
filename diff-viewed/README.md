@@ -1,8 +1,8 @@
 <!-- Written by `npm run screenshots` in bb-plugins. Edit the stories there, not this file. -->
 
-# Diff Viewed
+# Diff Viewed Enhanced
 
-Use a Viewed checkbox on each file to keep track of what you've read in a long diff, synced with GitHub on the thread's pull request.
+Adds a viewed count and GitHub sync to bb's own Viewed checkboxes, so you can see how much of a long diff you've read.
 
 Source: [`bb-plugin-diff-viewed`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-diff-viewed)
 
@@ -10,13 +10,13 @@ Source: [`bb-plugin-diff-viewed`](https://github.com/danielbachhuber/bb-plugins/
 
 ### Viewed
 
-Three files marked viewed fold away and dim, the unread file below them stays open, and the toolbar counts 3/6 viewed. Every file here syncs with the pull request, so none shows the Local icon.
+Three files checked Viewed in bb fold away, the unread file below them stays open, and the toolbar counts 3/6 viewed. Every file here syncs with the pull request, so none shows the Local icon.
 
 ![Viewed](changes-panel--viewed.png)
 
 ### Local
 
-src/pricing.ts has edits that are not pushed, so its diff here differs from the pull request's. Its Viewed mark is Local, shown by the crossed-out cloud before the checkbox, and stays in bb until a push makes the diffs match.
+src/pricing.ts has edits that are not pushed, so its diff here differs from the pull request's. Its mark is Local, shown by the crossed-out cloud after the checkbox, and stays in bb until a push makes the diffs match.
 
 ![Local](changes-panel--local.png)
 
@@ -28,12 +28,6 @@ A thread with no open pull request: every mark is Local, checked or not, and goe
 
 ### Loading
 
-While GitHub is still answering: bb's own marks show at once, a spinner holds the Local icon's place, and the viewed count stays muted.
+While GitHub is still answering: bb's checkboxes show its marks at once, a spinner holds the Local icon's place, and the viewed count stays muted.
 
 ![Loading](changes-panel--loading.png)
-
-### Only unviewed
-
-Only unviewed, checked at the bottom of the range dropdown, hides the three viewed files. The toolbar still counts 3/6 viewed.
-
-![Only unviewed](changes-panel--only-unviewed.png)
