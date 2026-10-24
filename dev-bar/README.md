@@ -2,7 +2,7 @@
 
 # Dev Bar
 
-A status bar along the bottom of a thread that shows which of the checkout's dev services are running, and starts, stops, or restarts them.
+A status bar under a thread that starts, stops, and restarts its checkout's dev services, and stops them when its last thread is archived.
 
 Source: [`bb-plugin-dev-bar`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-dev-bar)
 
