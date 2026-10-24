@@ -108,9 +108,15 @@ The whole window: the title bar's limits open, with a session on pace to run out
 
 ### Title bar in window
 
-The session in bb's title bar, beside the window's own buttons, with its limits open: a session on pace for 95% by its reset, so the button and the meter are amber.
+The session in bb's title bar, at the right edge of the open sidebar, with its limits open: a session on pace for 95% by its reset, so the button and the meter are amber.
 
 ![Title bar in window](page--title-bar-in-window.png)
+
+### Title bar narrow sidebar
+
+The session in bb's title bar when the sidebar has no room for the spark chart: dragged narrow, the rings sit alone at its edge; closed, they sit beside the sidebar toggle.
+
+![Title bar narrow sidebar](page--title-bar-narrow-sidebar.png)
 
 ### Context meter in thread
 
