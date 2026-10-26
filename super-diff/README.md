@@ -2,7 +2,7 @@
 
 # Super Diff
 
-Group the Diff tab by concern, with an explanation for each group and notes on tricky code, plus a note on any line you ask about.
+Group a thread's diff by concern in the Diff tab, with an explanation for each group and notes under the lines that need them.
 
 Source: [`bb-plugin-super-diff`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-super-diff)
 
@@ -16,7 +16,7 @@ A Super Diff of a 57-file rename: the row with every concern listed, the first c
 
 ### All concerns
 
-All six concerns of the same Super Diff, each with what its files' changes are, how many of them Diff Viewed has marked viewed, and its annotations. In bb, each concern's diff cards follow its heading.
+All six concerns of the same Super Diff, each with what its files' changes are, how many of them are marked viewed, and its annotations. In bb, each concern's diff cards follow its heading.
 
 ![All concerns](super-diff--all-concerns.png)
 
@@ -74,8 +74,20 @@ Explain this: the card under a line while a fork of the thread writes its note, 
 
 ![Explain this](super-diff--explain-this.png)
 
+### Removed line note
+
+A note on a removed line sits under that line, in red, rather than under the line that replaced it. Explain this works on removed lines too.
+
+![Removed line note](super-diff--removed-line-note.png)
+
+### Removed line note split
+
+The same note in split view: it sits in the left half, under the removed line, and the right half gets a blank row so the two stay level.
+
+![Removed line note split](super-diff--removed-line-note-split.png)
+
 ### Concern file list
 
-A concern's heading with Diff Viewed installed: its viewed count, then each file and what its change does. Files that change the same mechanical way share one line.
+A concern's heading: its viewed count, then each file and what its change does. Files that change the same mechanical way share one line.
 
 ![Concern file list](super-diff--concern-file-list.png)
