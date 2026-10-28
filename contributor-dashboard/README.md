@@ -68,6 +68,12 @@ A prolific author: their pull requests page 10 at a time.
 
 ![Person page paged](page--person-page-paged.png)
 
+### Person page authored filtered
+
+Their pull requests narrowed to the merged ones, biggest first. The heading counts how many of the whole list are left.
+
+![Person page authored filtered](page--person-page-authored-filtered.png)
+
 ### Person page quiet
 
 Nobody is waiting on them and they have opened nothing this period.
