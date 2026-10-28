@@ -98,6 +98,32 @@ Every open issue, reached from the Issues heading.
 
 ![Open issues](page--open-issues.png)
 
+## Person finder
+
+### Focused
+
+Focused with nothing typed: the eight most recently active people.
+
+![Focused](person-finder--focused.png)
+
+### Typed
+
+Typing narrows the list, names starting with the text first.
+
+![Typed](person-finder--typed.png)
+
+### On a persons page
+
+On a person's page, their own name is marked.
+
+![On a persons page](person-finder--on-a-persons-page.png)
+
+### No match
+
+Nothing matches what was typed.
+
+![No match](person-finder--no-match.png)
+
 ## Velocity section
 
 ### Folded
