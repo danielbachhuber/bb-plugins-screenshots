@@ -12,7 +12,7 @@ small history while the visual history is still available.
 | --- | --- | --- |
 | [Automation Palette](automation-palette/README.md) | Run any bb automation from the quick palette, without opening the Automations page. | 3 stories |
 | [component-library](component-library/README.md) | UI that several plugins draw the same way, starting with the sync status in a page's title bar. | 20 stories |
-| [Contributor Dashboard](contributor-dashboard/README.md) | A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews, issues and releases. | 22 stories |
+| [Contributor Dashboard](contributor-dashboard/README.md) | A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews, issues and releases. | 24 stories |
 | [Dev Bar](dev-bar/README.md) | A status bar under a thread that starts, stops, and restarts its checkout's dev services, and stops them when its last thread is archived. | 8 stories |
 | [Diff Comment](diff-comment/README.md) | Leave review comments on a thread's diff and ask the agent about each one, with the pull request's review comments on the same lines. | 6 stories |
 | [Diff Viewed Enhanced](diff-viewed/README.md) | Adds a viewed count and GitHub sync to bb's own Viewed checkboxes, so you can see how much of a long diff you've read. | 4 stories |
