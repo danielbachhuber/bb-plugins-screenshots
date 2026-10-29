@@ -16,7 +16,7 @@ A review thread on the diff: the comment and its reply, with a link to answer on
 
 ### Pending draft
 
-A draft on your own unsubmitted review is marked Pending, since only you can see it.
+A draft on your own unsubmitted review is marked Pending, since only you can see it, and has an Edit button.
 
 ![Pending draft](github-review-comments--pending-draft.png)
 
