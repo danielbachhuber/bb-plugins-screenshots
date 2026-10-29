@@ -6,6 +6,14 @@ Leave review comments on a thread's diff and ask the agent about each one, with 
 
 Source: [`bb-plugin-diff-comment`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-diff-comment)
 
+## Comments
+
+### Conversation with the agent
+
+An answered comment shows the whole exchange in order, and Reply answers the agent back in the same subthread.
+
+![Conversation with the agent](comments--conversation-with-the-agent.png)
+
 ## Github review comments
 
 ### Thread on the diff
