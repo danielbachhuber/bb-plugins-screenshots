@@ -123,3 +123,33 @@ The session in bb's title bar when the sidebar has no room for the spark chart: 
 A thread whose context has passed the warning setting: its last exchange, then the amber meter above the composer, with Compact.
 
 ![Context meter in thread](page--context-meter-in-thread.png)
+
+### Turn strip states
+
+The strip above the composer. While a turn runs, its clock counts up with the commands and other tools it has started; tokens arrive when it ends. Once the turn ends, the strip goes away and the line under the turn takes over.
+
+![Turn strip states](page--turn-strip-states.png)
+
+### Turn summaries in thread
+
+A line under each finished turn in the conversation: how long it took, its tokens, and the commands and other tools it ran. The strip above the composer counts the running turn.
+
+![Turn summaries in thread](page--turn-summaries-in-thread.png)
+
+### Turn card open
+
+Hovering or clicking a turn's line opens its card: when it ran, where its time went, its tokens by kind, its slowest commands, and its other tools.
+
+![Turn card open](page--turn-card-open.png)
+
+### Turn card command open
+
+Resting on a command in the card shows the whole command beside it, such as the body of a heredoc.
+
+![Turn card command open](page--turn-card-command-open.png)
+
+### Turn strip card open
+
+The running turn's card, opened from the strip above the composer: a command still going, and tokens to come.
+
+![Turn strip card open](page--turn-strip-card-open.png)
