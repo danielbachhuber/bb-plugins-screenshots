@@ -72,6 +72,6 @@ On a task with no due date and a deadline that has passed, Postpone moves the de
 
 ### Default
 
-The box in bb's sidebar, on every page: closed, it counts the week's priorities beside a ring filled by those checked off; opened, it lists them.
+The box in bb's sidebar, on every page: closed, it counts the week's priorities, with a ring beside the arrow filled by those checked off; opened, it lists them and the ring goes.
 
 ![Default](priorities--default.png)
