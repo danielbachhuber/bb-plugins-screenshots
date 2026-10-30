@@ -14,6 +14,12 @@ An answered comment shows the whole exchange in order, and Reply answers the age
 
 ![Conversation with the agent](comments--conversation-with-the-agent.png)
 
+### Composer in a narrow column
+
+In a narrow column, such as one side of a split diff, the composer's buttons wrap onto a second row instead of running past the card's edge.
+
+![Composer in a narrow column](comments--composer-in-a-narrow-column.png)
+
 ## Github review comments
 
 ### Thread on the diff
