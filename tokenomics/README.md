@@ -90,7 +90,7 @@ A thread whose context has grown past the error setting: the header's sparkline 
 
 ### Title bar
 
-The session in bb's title bar, after the other plugins' buttons: its tokens per 15 minutes from its start to its reset, with a dot for each 15 minutes still to come, and two rings for the percent used: the session outside, the week inside. Hovering shows the page's meters; clicking opens the page.
+The session in bb's title bar, after the other plugins' buttons: its tokens per 15 minutes from its start to its reset, with a dot for each 15 minutes still to come, and two rings for the percent used: the session outside, the week inside. Between sessions, the week's ring and the past five hours' tokens. Hovering shows the page's meters; clicking opens the page.
 
 ![Title bar](page--title-bar.png)
 
