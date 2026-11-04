@@ -78,9 +78,15 @@ The button where bb draws it, in a thread header's action row, with its summary 
 
 ### Context meter states
 
-The meter above a thread's composer once its context passes the warning setting, 300K tokens here, and red past the error setting, 550K, with a button that compacts the thread.
+The meter above a thread's composer once its context passes the warning setting, 300K tokens here, and red past the error setting, 550K, with a button that compacts the thread. It also shows, tinted amber, once a thread of 100K or more sits idle past its prompt cache.
 
 ![Context meter states](page--context-meter-states.png)
+
+### Cache expired in thread
+
+A thread at 223K, under the warning, that sat idle two hours past its prompt cache: the meter shows, tinted amber, so the next message can compact first.
+
+![Cache expired in thread](page--cache-expired-in-thread.png)
 
 ### Thread with meter
 
