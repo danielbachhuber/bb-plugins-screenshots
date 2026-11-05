@@ -16,9 +16,21 @@ An answered comment shows the whole exchange in order, and Reply answers the age
 
 ### Composer in a narrow column
 
-In a narrow column, such as one side of a split diff, the composer's buttons wrap onto a second row instead of running past the card's edge.
+In a narrow column, such as one side of a split diff, the toolbar keeps Add a suggestion, Bold, and Italic, with the rest under More, and the composer's buttons wrap onto a second row instead of running past the card's edge.
 
 ![Composer in a narrow column](comments--composer-in-a-narrow-column.png)
+
+### Suggesting a change
+
+The comment box has GitHub's toolbar. On a line of new code, Add a suggestion starts a suggestion block holding the line, ready to edit.
+
+![Suggesting a change](comments--suggesting-a-change.png)
+
+### Comment with a suggestion
+
+A saved suggestion shows as a change to its line: the line as it is, then the suggested replacement.
+
+![Comment with a suggestion](comments--comment-with-a-suggestion.png)
 
 ## Github review comments
 
