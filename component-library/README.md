@@ -68,6 +68,20 @@ Counts of rows past a warning, in amber, and past an error, in red, for a page w
 
 ![Levels](sidebar-count--levels.png)
 
+## Stack menu
+
+### Button
+
+The button as a row draws it: the pull request's place in its stack, as GitHub writes it.
+
+![Button](stack-menu--button.png)
+
+### Open
+
+Open: every pull request in the stack, top first, this one marked. Hovering one shows its title.
+
+![Open](stack-menu--open.png)
+
 ## Start thread
 
 ### Preview
