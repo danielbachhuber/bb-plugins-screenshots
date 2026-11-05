@@ -26,6 +26,18 @@ Before anything is generated: bb's own diff, with Generate Super Diff on the lef
 
 ![Not generated](super-diff--not-generated.png)
 
+### Checking
+
+While Super Diff asks whether this thread has a Super Diff. A thread whose Super Diff was shown on this machine recently skips this and opens straight to its outline.
+
+![Checking](super-diff--checking.png)
+
+### Opening
+
+A stored Super Diff, drawn before its diff has loaded: every concern with its explanation, files, and annotations, and grey lines where each file's diff will go. The row's counts run up from zero the first time it shows.
+
+![Opening](super-diff--opening.png)
+
 ### No diff
 
 The thread has no changes yet, so Generate Super Diff waits, greyed out, until it does.
