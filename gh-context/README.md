@@ -2,7 +2,7 @@
 
 # GitHub Context
 
-A banner above the composer showing the thread's pull request and its reviewers, the GitHub issues it works on, its changes, and a Harvest timer, in place of bb's own.
+Replaces bb's composer banner with the thread's pull request, its stack and reviewers, linked issues, its changes, and a Harvest timer.
 
 Source: [`bb-plugin-gh-context`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-gh-context)
 

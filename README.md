@@ -16,7 +16,7 @@ small history while the visual history is still available.
 | [Dev Bar](dev-bar/README.md) | A status bar under a thread that starts, stops, and restarts its checkout's dev services, and stops them when its last thread is archived. | 8 stories |
 | [Diff Comment](diff-comment/README.md) | Leave review comments on a thread's diff and ask the agent about each one, with the pull request's review comments on the same lines. | 10 stories |
 | [Diff Viewed Enhanced](diff-viewed/README.md) | Adds a viewed count and GitHub sync to bb's own Viewed checkboxes, so you can see how much of a long diff you've read. | 4 stories |
-| [GitHub Context](gh-context/README.md) | A banner above the composer showing the thread's pull request and its reviewers, the GitHub issues it works on, its changes, and a Harvest timer, in place of bb's own. | 5 stories |
+| [GitHub Context](gh-context/README.md) | Replaces bb's composer banner with the thread's pull request, its stack and reviewers, linked issues, its changes, and a Harvest timer. | 5 stories |
 | [Impromptu UI](impromptu-ui/README.md) | Turns your agent's walls of text into interfaces you can click. | 75 stories |
 | [Issue Sweep](issue-sweep/README.md) | Open GitHub issues assigned to you, split into what needs you and everything else grouped by board status, with local notes, an On hold box that sinks an issue to the bottom, new comment counts, and the comments a click away. | 7 stories |
 | [Markdown Editor](markdown-editor/README.md) | Edit markdown files in the tab bb opens them in, preview the result, and save with Cmd+S without overwriting an agent's edits. | 7 stories |
