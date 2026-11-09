@@ -16,7 +16,7 @@ A typical day. The one with a thread is pinned at the top; the rest follow newes
 
 ### Stacks
 
-Stacked pull requests drawn together. Each stack with two or more pull requests in the list takes the place of its newest one, under a header naming the stack, how many are open, and which have merged. Each pull request is one line, bottom of the stack first: its place, number, title, reviewers, checks, size, comments, and its actions as icons, with a note under its line. #512, alone from its stack here, stays an ordinary row.
+Stacked pull requests drawn together. Each stack with two or more pull requests in the list takes the place of its newest one, under a header with the stack's number and a dot for each of its pull requests, bottom first, purple once merged. Each pull request is one line, bottom of the stack first: its place, number, title, reviewers, checks, size, comments, and its actions as icons, with a note under its line. #512, alone from its stack here, stays an ordinary row.
 
 ![Stacks](pr-list--stacks.png)
 
