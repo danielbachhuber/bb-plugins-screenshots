@@ -103,3 +103,9 @@ The same note in split view: it sits in the left half, under the removed line, a
 A concern's heading: its viewed count, then each file and what its change does. Files that change the same mechanical way share one line.
 
 ![Concern file list](super-diff--concern-file-list.png)
+
+### Mark section viewed
+
+Marking a whole section viewed: the link after the count marks every file not yet viewed, and reads Clear once all of them are. Shown with none, some, and all of Generated files viewed.
+
+![Mark section viewed](super-diff--mark-section-viewed.png)
