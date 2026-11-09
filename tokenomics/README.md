@@ -2,7 +2,7 @@
 
 # Tokenomics
 
-See what your threads cost in tokens and time, and whether your subscription's session and weekly limits will last until they reset.
+See what your threads cost in tokens and time, how each turn compared with Claude's forecast, and whether your limits will last.
 
 Source: [`bb-plugin-tokenomics`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-tokenomics)
 
@@ -84,7 +84,7 @@ The meter above a thread's composer once its context passes the warning setting,
 
 ### Cache expired in thread
 
-A thread at 223K, under the warning, that sat idle two hours past its prompt cache: the meter shows, tinted amber, so the next message can compact first.
+A thread at 223K, under the warning, that sat idle two hours past its prompt cache: the meter shows, tinted amber, with Compact before the next message re-reads it all.
 
 ![Cache expired in thread](page--cache-expired-in-thread.png)
 
@@ -159,3 +159,21 @@ Resting on a command in the card shows the whole command beside it, such as the 
 The running turn's card, opened from the strip above the composer: a command still going, and tokens to come.
 
 ![Turn strip card open](page--turn-strip-card-open.png)
+
+### Forecasts in thread
+
+With Claude's forecasts, the line under each turn shows each number against its range: minutes, tokens, and model calls. A number outside its range is amber when over and blue when under. The bar shows the calls: the grey band is the forecast's range, the tick is where the turn landed. Above the composer, the running turn counts its calls against the forecast.
+
+![Forecasts in thread](page--forecasts-in-thread.png)
+
+### Forecast card open
+
+A turn's card with its forecast: calls, tokens, and time against their ranges, and Claude's note.
+
+![Forecast card open](page--forecast-card-open.png)
+
+### Forecast strip states
+
+The strip while a turn with a forecast runs: its calls so far against the range, and the forecast's tokens and time. Past the top of the range it turns amber, the moment to stop it. Without a forecast it reads as before.
+
+![Forecast strip states](page--forecast-strip-states.png)
