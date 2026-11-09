@@ -2,7 +2,7 @@
 
 # PR Sweep
 
-Open pull requests you authored in one list, newest first with in-progress ones on top and those waiting on others closed to one line at the bottom, with local notes, new comment counts, review comments a click away, a Dismiss for failing checks you cannot fix, and where a stacked pull request sits in its stack. Clicking the sync time shows what the past hour of sweeps cost against GitHub's rate limit. Its icon in bb's navigation shows how many need you, in red. Needs gh-context.
+Open pull requests you authored in one list, newest first with in-progress ones on top and those waiting on others closed to one line at the bottom, with local notes, new comment counts, review comments a click away, a Dismiss for failing checks you cannot fix, and stacked pull requests grouped by stack. Clicking the sync time shows what the past hour of sweeps cost against GitHub's rate limit. Its icon in bb's navigation shows how many need you, in red. Needs gh-context.
 
 Source: [`bb-plugin-pr-sweep`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-pr-sweep)
 
@@ -13,6 +13,12 @@ Source: [`bb-plugin-pr-sweep`](https://github.com/danielbachhuber/bb-plugins/tre
 A typical day. The one with a thread is pinned at the top; the rest follow newest first, each with a red banner naming what stops it or a green one when it can merge, and the one awaiting review closes to one line at the bottom. The one with a thread is stacked on the one ready to merge, so each has a chip: "1 of 2 · base" and "2 of 2 · on #512".
 
 ![Baseline](pr-list--baseline.png)
+
+### Stacks
+
+Stacked pull requests drawn together. Each stack with two or more pull requests in the list takes the place of its newest one, under a header naming the stack, how many are open, and which have merged. Each pull request is one line, bottom of the stack first: its place, number, title, reviewers, checks, size, comments, and its actions as icons, with a note under its line. #512, alone from its stack here, stays an ordinary row.
+
+![Stacks](pr-list--stacks.png)
 
 ### Rows
 
