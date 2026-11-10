@@ -6,6 +6,14 @@ UI that several plugins draw the same way, starting with the sync status in a pa
 
 Source: [`component-library`](https://github.com/danielbachhuber/bb-plugins/tree/main/component-library)
 
+## Checks menu
+
+### Open
+
+Open: every check on the head commit, failing first, then cancelled, running, passed, and skipped.
+
+![Open](checks-menu--open.png)
+
 ## Date range
 
 ### Empty
