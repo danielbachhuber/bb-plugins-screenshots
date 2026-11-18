@@ -8,21 +8,21 @@ Source: [`bb-plugin-tokenomics`](https://github.com/danielbachhuber/bb-plugins/t
 
 ## Goals
 
-### Goal band in thread
+### Goal in header
 
-The goal band between the thread header and the conversation, which scrolls under it: the goal, how far it has come, and the turns left, then a square and name per stage.
+The token button in the thread header with the goal's donut before its sparkline, spinning while the thread works, and the summary it opens, which starts with the goal.
 
-![Goal band in thread](goals--goal-band-in-thread.png)
+![Goal in header](goals--goal-in-header.png)
 
-### Goal band states
+### Compact goal states
 
-The band past its estimate, with twelve items in place of the stages, and once the goal is met.
+The goal at the top of the summary: with twelve items in place of the stages, waiting on you past its estimate, an exploration, and once met.
 
-![Goal band states](goals--goal-band-states.png)
+![Compact goal states](goals--compact-goal-states.png)
 
 ### Goal card open
 
-The card that opens on the band: the stages, any items, what the goal has used against its estimate, and how to change it.
+The card that opens on a sidebar donut: the stages, any items, what the goal has used against its estimate, and how to change it.
 
 ![Goal card open](goals--goal-card-open.png)
 
