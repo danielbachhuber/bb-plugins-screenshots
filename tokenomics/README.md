@@ -28,13 +28,13 @@ The card that opens on the band: the stages, what the goal has used against its 
 
 ### Sidebar marks
 
-The segmented donut before a sidebar row's title: a segment per stage, amber past the estimate, dashed for an exploration, a check once met, a cross when not met.
+The segmented donut at the right end of a sidebar row, in place of bb's icon: a segment per stage, amber past the estimate, an exploration's answer then your decision, a check once met, a cross when not met.
 
 ![Sidebar marks](goals--sidebar-marks.png)
 
 ### Sidebar mark hovered
 
-Resting on the donut opens the goal's card beside the sidebar.
+Resting on the donut opens the goal's card beside the sidebar, here while the thread works.
 
 ![Sidebar mark hovered](goals--sidebar-mark-hovered.png)
 
