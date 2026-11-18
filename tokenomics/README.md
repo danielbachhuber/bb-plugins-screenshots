@@ -8,21 +8,21 @@ Source: [`bb-plugin-tokenomics`](https://github.com/danielbachhuber/bb-plugins/t
 
 ## Goals
 
-### Goal line in header
+### Goal band in thread
 
-The goal line under a thread's title: the goal, its current stage, and the turns left.
+The goal band between the thread header and the conversation, which scrolls under it: the goal, a segment per stage, the stage reached, and the turns left.
 
-![Goal line in header](goals--goal-line-in-header.png)
+![Goal band in thread](goals--goal-band-in-thread.png)
 
-### Goal line states
+### Goal band states
 
-Each kind of goal on the line: a task under way, one past its estimate, an exploration, and a met goal.
+The band past its estimate, and once the goal is met.
 
-![Goal line states](goals--goal-line-states.png)
+![Goal band states](goals--goal-band-states.png)
 
 ### Goal card open
 
-The card that opens on the line: the stages, what the goal has used against its estimate, and how to change it.
+The card that opens on the band: the stages, what the goal has used against its estimate, and how to change it.
 
 ![Goal card open](goals--goal-card-open.png)
 
