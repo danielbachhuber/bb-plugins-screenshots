@@ -64,7 +64,7 @@ The goal card in each thread state: the stage being worked on shows what the thr
 
 ### Working donuts
 
-The donut while the thread works, for goals of one, two, and five stages: the stage being worked on is half filled, so the turning ring shows even with a single stage or none done yet (a still, mid-turn).
+The donut while the thread works, for goals of one, two, and five stages: the stage being worked on is dashed, so the turning ring shows even with a single stage or none done yet (a still, mid-turn).
 
 ![Working donuts](goals--working-donuts.png)
 
