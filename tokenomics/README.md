@@ -52,7 +52,7 @@ The Goals section before any thread has recorded a goal.
 
 ### Every bb row state
 
-Every bb sidebar row state: bb's icon today, and the goal donut that takes its place on a thread with a goal (3 of 5 stages done). The pulse is animated, so a still shows working close to idle.
+Every bb sidebar row state: bb's icon, and the goal donut that takes its place on a thread with a goal (3 of 5 stages done). The done arc takes bb's colour, the donut spins while working (a still shows it mid-turn), queued looks like idle, and a draft keeps bb's own icon.
 
 ![Every bb row state](goals--every-bb-row-state.png)
 
