@@ -16,7 +16,7 @@ The token button in the thread header with the goal's donut before its sparkline
 
 ### Compact goal states
 
-The goal at the top of the summary: with twelve items in place of the stages, waiting on you past its estimate, an exploration, and once met.
+The goal at the top of the summary: with its stages and then twelve items, waiting on you past its estimate, an exploration, and once met.
 
 ![Compact goal states](goals--compact-goal-states.png)
 
