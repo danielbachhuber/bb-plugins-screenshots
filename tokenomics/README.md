@@ -62,6 +62,12 @@ The goal card in each thread state: the stage being worked on shows what the thr
 
 ![Card in each state](goals--card-in-each-state.png)
 
+### Working donuts
+
+The donut while the thread works, for goals of one, two, and five stages: the stage being worked on is half filled, so the turning ring shows even with a single stage or none done yet (a still, mid-turn).
+
+![Working donuts](goals--working-donuts.png)
+
 ## Page
 
 ### Past day
