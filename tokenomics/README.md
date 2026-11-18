@@ -52,7 +52,7 @@ The Goals section before any thread has recorded a goal.
 
 ### Every bb row state
 
-Every bb sidebar row state: bb's icon, and the goal donut that takes its place on a thread with a goal (3 of 5 stages done). The done arc takes bb's colour, the donut spins while working (a still shows it mid-turn), and a draft keeps bb's own icon. A failure or a queued message, such as a turn waiting to retry after a provider error, keeps bb's icon beside the donut.
+Every bb sidebar row state: bb's icon, and the goal donut that takes its place on a thread with a goal (3 of 5 stages done). The done arc takes bb's colour, the donut spins while working (a still shows it mid-turn), and a draft keeps bb's own icon. A failed turn, including one waiting to retry after a provider error, shows bb's icon alone.
 
 ![Every bb row state](goals--every-bb-row-state.png)
 
