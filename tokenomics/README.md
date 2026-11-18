@@ -16,13 +16,13 @@ The token button in the thread header with the goal's donut before its sparkline
 
 ### Compact goal states
 
-The goal at the top of the summary: with its stages and then twelve items, waiting on you past its estimate, an exploration, and once met.
+The goal at the top of the summary: a review's twelve findings at high detail, the same review grouped with counts at low detail, waiting on you past its estimate, an exploration, and once met.
 
 ![Compact goal states](goals--compact-goal-states.png)
 
 ### Goal card open
 
-The card that opens on a sidebar donut: the stages, any items, what the goal has used against its estimate, and how to change it.
+The card that opens on a sidebar donut: the "Done is" list, what the goal has used against its estimate, and how to change it.
 
 ![Goal card open](goals--goal-card-open.png)
 
@@ -67,6 +67,12 @@ The goal card in each thread state: the stage being worked on shows what the thr
 The donut while the thread works, for goals of one, two, and five stages: the stage being worked on is dashed, so the turning ring shows even with a single stage or none done yet (a still, mid-turn).
 
 ![Working donuts](goals--working-donuts.png)
+
+### Donut per entry
+
+The donut with a segment per entry, each in its own state: done, dropped (lighter), in progress (dashed while working), or not started. Twelve findings at high detail, and the same review grouped at low detail.
+
+![Donut per entry](goals--donut-per-entry.png)
 
 ## Page
 
