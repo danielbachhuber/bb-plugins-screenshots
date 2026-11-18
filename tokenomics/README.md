@@ -28,9 +28,15 @@ The card that opens on the band: the stages, what the goal has used against its 
 
 ### Sidebar marks
 
-The mark beside a sidebar row's title: stages done, a question, or the outcome.
+The segmented donut before a sidebar row's title: a segment per stage, amber past the estimate, dashed for an exploration, a check once met, a cross when not met.
 
 ![Sidebar marks](goals--sidebar-marks.png)
+
+### Sidebar mark hovered
+
+Resting on the donut opens the goal's card beside the sidebar.
+
+![Sidebar mark hovered](goals--sidebar-mark-hovered.png)
 
 ### Goals section
 
