@@ -10,19 +10,19 @@ Source: [`bb-plugin-tokenomics`](https://github.com/danielbachhuber/bb-plugins/t
 
 ### Goal band in thread
 
-The goal band between the thread header and the conversation, which scrolls under it: the goal, a segment per stage, the stage reached, and the turns left.
+The goal band between the thread header and the conversation, which scrolls under it: the goal, how far it has come, and the turns left, then a square and name per stage.
 
 ![Goal band in thread](goals--goal-band-in-thread.png)
 
 ### Goal band states
 
-The band past its estimate, and once the goal is met.
+The band past its estimate, with twelve items in place of the stages, and once the goal is met.
 
 ![Goal band states](goals--goal-band-states.png)
 
 ### Goal card open
 
-The card that opens on the band: the stages, what the goal has used against its estimate, and how to change it.
+The card that opens on the band: the stages, any items, what the goal has used against its estimate, and how to change it.
 
 ![Goal card open](goals--goal-card-open.png)
 
