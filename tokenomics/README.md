@@ -16,7 +16,7 @@ The token button in the thread header with the goal's donut before its sparkline
 
 ### Compact goal states
 
-The goal at the top of the summary: a review's twelve findings at high detail, the same review grouped with counts at low detail, waiting on you past its estimate, an exploration, and once met.
+The goal at the top of the summary: a review's twelve findings at high detail, the same review grouped with counts at low detail, waiting on you past its estimate, one long entry wrapping, an exploration, and once met.
 
 ![Compact goal states](goals--compact-goal-states.png)
 
