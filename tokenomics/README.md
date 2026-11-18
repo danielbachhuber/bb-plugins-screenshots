@@ -50,6 +50,18 @@ The Goals section before any thread has recorded a goal.
 
 ![Goals section empty](goals--goals-section-empty.png)
 
+### Every bb row state
+
+Every bb sidebar row state: bb's icon today, and the goal donut that takes its place on a thread with a goal (3 of 5 stages done). The pulse is animated, so a still shows working close to idle.
+
+![Every bb row state](goals--every-bb-row-state.png)
+
+### Card in each state
+
+The goal card in each thread state: the stage being worked on shows what the thread is doing, as the donut does.
+
+![Card in each state](goals--card-in-each-state.png)
+
 ## Page
 
 ### Past day
