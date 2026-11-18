@@ -2,9 +2,47 @@
 
 # Tokenomics
 
-See what your threads cost in tokens and time, how each turn compared with Claude's forecast, and whether your limits will last.
+See what your threads cost in tokens and time, each thread's goal and its progress, how turns compared with forecasts, and if limits last.
 
 Source: [`bb-plugin-tokenomics`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-tokenomics)
+
+## Goals
+
+### Goal line in header
+
+The goal line under a thread's title: the goal, its current stage, and the turns left.
+
+![Goal line in header](goals--goal-line-in-header.png)
+
+### Goal line states
+
+Each kind of goal on the line: a task under way, one past its estimate, an exploration, and a met goal.
+
+![Goal line states](goals--goal-line-states.png)
+
+### Goal card open
+
+The card that opens on the line: the stages, what the goal has used against its estimate, and how to change it.
+
+![Goal card open](goals--goal-card-open.png)
+
+### Sidebar marks
+
+The mark beside a sidebar row's title: stages done, a question, or the outcome.
+
+![Sidebar marks](goals--sidebar-marks.png)
+
+### Goals section
+
+The Goals section of the Tokenomics page: what each outcome cost, and threads with a goal against without.
+
+![Goals section](goals--goals-section.png)
+
+### Goals section empty
+
+The Goals section before any thread has recorded a goal.
+
+![Goals section empty](goals--goals-section-empty.png)
 
 ## Page
 
