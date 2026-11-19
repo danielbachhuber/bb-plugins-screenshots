@@ -28,7 +28,7 @@ The card that opens on a sidebar donut: the "Done is" list, what the goal has us
 
 ### Sidebar marks
 
-The segmented donut at the right end of a sidebar row, in place of bb's icon: a segment per stage, amber past the estimate, an exploration's answer then your decision, a check once met, a cross when not met.
+The segmented donut at the right end of a sidebar row, in place of bb's icon: a segment per stage, grouped entries as long as their items and filled by their counts, amber past the estimate, an exploration's answer then your decision, a check once met, a cross when not met.
 
 ![Sidebar marks](goals--sidebar-marks.png)
 
@@ -70,7 +70,7 @@ The donut while the thread works, for goals of one, two, and five stages: the st
 
 ### Donut per entry
 
-The donut with a segment per entry, each in its own state: done, dropped (lighter), in progress (dashed while working), or not started. Twelve findings at high detail, and the same review grouped at low detail.
+The donut with a segment per entry, each in its own state: done, dropped (lighter), in progress (dashed while working), or not started. A grouped entry's segment is as long as its items and fills by its count, so 30 issues in groups of 9, 14, and 7 with 9 fixed shows about a third filled. Twelve findings at high detail, the same review grouped at low detail, and thirty issues in three groups.
 
 ![Donut per entry](goals--donut-per-entry.png)
 
