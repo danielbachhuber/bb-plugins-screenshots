@@ -138,13 +138,13 @@ Batch, from the toolbar: every row the filters match, on every page, to tick, co
 
 ### Focused
 
-Focused with nothing typed: the five most recently active people, then three teams.
+Focused with nothing typed: three teams, then the five most recently active people.
 
 ![Focused](person-finder--focused.png)
 
 ### Typed
 
-Typing narrows the list, names starting with the text first, people before teams.
+Typing narrows the list, names starting with the text first, teams before people.
 
 ![Typed](person-finder--typed.png)
 
