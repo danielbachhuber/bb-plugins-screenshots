@@ -2,7 +2,7 @@
 
 # Contributor Dashboard
 
-A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews, issues and releases. The page opens with an overview: a flow diagram of the delivery model's six stages, Identify to Learn, with a box for each step GitHub can see showing how many are waiting in it now and how long half take, and lines for where everything opened in the period went, thicker for more, including the paths a straight line hides: issues assigned without a plan, pull requests reviewed unasked, sent back with changes requested, merged with no review, or closed unmerged. Under it, an Issues section and a Pull requests section each time their steps with the median, p75 and p90, the Issues section charts the issues closed each week by issue type with those closed as not planned or duplicate set apart, and clicking a step lists what is in it, every row naming whoever it is assigned to and offering to start a thread on it or copy its link. The Pull requests section also has PR Velocity, which opens with a chart of pull requests opened and merged each week, with bands showing the ones that bled into a later week and how many were still open, then charts for each person the pull requests they opened and the ones that merged, and Review Velocity, which opens with the same chart for review requests and the reviews that answered them, then the reviews requested of each person and the reviews they gave, over 2 weeks, 6 weeks, 3 months, or a range of dates you pick, drawn by day, week or month to suit the span, with the quietest people folded into rows of counts, and a row per team asked for reviews showing who on it picked them up and what still waits on it. Last, a Releases section draws the newest GitHub release in full: how many pull requests its notes list, how many are features, fixes, refactors, chores or dependency updates, which patch releases followed it, and how many each person merged and reviewed with their share of each, with the period's other releases as rows that open the same way and a See more button that adds earlier ones. Clicking a name opens that person's page, which starts with a square for each day of the period in a row for each kind of activity, from pull requests opened to assigned issues closed, then the open issues assigned to them, each a bar from when it was opened to today showing how long it has been theirs and whether anything has happened since, and clicking the Issues or Pull requests heading lists every one open now, to sort, filter, and batch into one main thread with a subthread for each. Agents can read one person's activity over a period as JSON with `bb contributor-dashboard activity`.
+A dashboard of how people contribute to one GitHub repository, from a local mirror of its pull requests, reviews, issues and releases. The page opens with an overview: a flow diagram of the delivery model's six stages, Identify to Learn, with a box for each step GitHub can see showing how many are waiting in it now and how long half take, and lines for where everything opened in the period went, thicker for more, including the paths a straight line hides: issues assigned without a plan, pull requests reviewed unasked, sent back with changes requested, merged with no review, or closed unmerged. Under it, an Issues section and a Pull requests section each time their steps with the median, p75 and p90, the Issues section charts the issues closed each week by issue type with those closed as not planned or duplicate set apart, and clicking a step lists what is in it, every row naming whoever it is assigned to and offering to start a thread on it or copy its link. The Pull requests section also has PR Velocity, which opens with a chart of pull requests opened and merged each week, with bands showing the ones that bled into a later week and how many were still open, then charts for each person the pull requests they opened and the ones that merged, and Review Velocity, which opens with the same chart for review requests and the reviews that answered them, then the reviews requested of each person and the reviews they gave, over 2 weeks, 6 weeks, 3 months, or a range of dates you pick, drawn by day, week or month to suit the span, with the quietest people folded into rows of counts, and a row per team asked for reviews showing who on it picked them up and what still waits on it. Last, a Releases section draws the newest GitHub release in full: how many pull requests its notes list, how many are features, fixes, refactors, chores or dependency updates, which patch releases followed it, and how many each person merged and reviewed with their share of each, with the period's other releases as rows that open the same way and a See more button that adds earlier ones. Clicking a person or a team opens their page, a team's adding up what its members did, which starts with a square for each day of the period in a row for each kind of activity, from pull requests opened to assigned issues closed, then the open issues assigned to them, each a bar from when it was opened to today showing how long it has been theirs and whether anything has happened since, and clicking the Issues or Pull requests heading lists every one open now, to sort, filter, and batch into one main thread with a subthread for each. Agents can read one person's activity over a period as JSON with `bb contributor-dashboard activity`.
 
 Source: [`bb-plugin-contributor-dashboard`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-contributor-dashboard)
 
@@ -86,6 +86,12 @@ Their pull requests narrowed to the merged ones, biggest first. The heading coun
 
 ![Person page authored filtered](page--person-page-authored-filtered.png)
 
+### Team page
+
+A team's page has the same parts as a person's, adding up what its members did. Its members are listed under the title, each opening their own page; the lists name who on the team holds each issue, opened each pull request, or was asked for each review; and the last list is what waits on the team itself.
+
+![Team page](page--team-page.png)
+
 ### Person page quiet
 
 Nobody is waiting on them, they hold no issues, and they have opened nothing this period.
@@ -132,15 +138,21 @@ Batch, from the toolbar: every row the filters match, on every page, to tick, co
 
 ### Focused
 
-Focused with nothing typed: the eight most recently active people.
+Focused with nothing typed: the five most recently active people, then three teams.
 
 ![Focused](person-finder--focused.png)
 
 ### Typed
 
-Typing narrows the list, names starting with the text first.
+Typing narrows the list, names starting with the text first, people before teams.
 
 ![Typed](person-finder--typed.png)
+
+### Typed team
+
+A team matches what was typed.
+
+![Typed team](person-finder--typed-team.png)
 
 ### On a persons page
 
