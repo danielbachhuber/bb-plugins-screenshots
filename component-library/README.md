@@ -10,7 +10,7 @@ Source: [`component-library`](https://github.com/danielbachhuber/bb-plugins/tree
 
 ### Open
 
-Open: every check on the head commit, failing first, then cancelled, running, passed, and skipped.
+Open: every check on the head commit, failing first, then cancelled, running, passed, and skipped, each with how long it took. The running check shows its time so far; the skipped one shows none.
 
 ![Open](checks-menu--open.png)
 
