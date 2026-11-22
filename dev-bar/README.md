@@ -2,7 +2,7 @@
 
 # Dev Bar
 
-A status bar under a thread that starts, stops, and restarts its checkout's dev services, and stops them when its last thread is archived.
+A status bar that starts, stops, and restarts a checkout's dev services, and stops them when its last thread is archived or deleted.
 
 Source: [`bb-plugin-dev-bar`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-dev-bar)
 
@@ -46,7 +46,7 @@ Before the first status arrives.
 
 ### Not set up
 
-The status command calls a program the checkout has not installed, as in a new worktree before its first install.
+The status command calls a program the checkout has not installed, and the checkout has no install command or lockfile, so the bar offers a thread to set it up.
 
 ![Not set up](strip--not-set-up.png)
 
@@ -55,3 +55,21 @@ The status command calls a program the checkout has not installed, as in a new w
 The status command's failure was dismissed; the bar still says it couldn't read services and offers Retry.
 
 ![Failure dismissed](strip--failure-dismissed.png)
+
+### Setting up
+
+While bb sets up a new checkout, the bar says so and waits to read services; the repository's buttons are grayed out until it finishes.
+
+![Setting up](strip--setting-up.png)
+
+### Needs install
+
+A program the status command needs is missing, so the bar offers to install the dependencies and checks again every 30 seconds.
+
+![Needs install](strip--needs-install.png)
+
+### Installing
+
+The install is running.
+
+![Installing](strip--installing.png)
