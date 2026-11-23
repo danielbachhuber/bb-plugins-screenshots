@@ -158,6 +158,30 @@ Batch, from the toolbar: every row the filters match, on every page, to tick, co
 
 ![Open pull requests batch](page--open-pull-requests-batch.png)
 
+### Person page loading
+
+A person's page while its first load is on its way: their name, each section's heading, and grey blocks where the charts and lists go.
+
+![Person page loading](page--person-page-loading.png)
+
+### Stage page loading
+
+A stage's page while it loads: grey blocks for its summary, its two charts, and the rows in it.
+
+![Stage page loading](page--stage-page-loading.png)
+
+### Milestone page loading
+
+A milestone's page while it loads: grey blocks for its summary, its history chart, and its open issues.
+
+![Milestone page loading](page--milestone-page-loading.png)
+
+### Open pull requests loading
+
+Every open pull request, while the list loads: a grey row for each one to come.
+
+![Open pull requests loading](page--open-pull-requests-loading.png)
+
 ## Person finder
 
 ### Focused
