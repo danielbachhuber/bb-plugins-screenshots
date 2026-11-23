@@ -174,6 +174,12 @@ Hovering the title bar's button: the meters for the session and the weekly limit
 
 ![Title bar hovered](page--title-bar-hovered.png)
 
+### Title bar hovered threads
+
+Below the chart, the session's top ten threads: each with its goal's progress, what the goal has spent against the top of its token estimate, amber once past it, and its tokens this session. A row opens its thread.
+
+![Title bar hovered threads](page--title-bar-hovered-threads.png)
+
 ### Window with limits
 
 The whole window: the title bar's limits open, with a session on pace to run out before it resets, over a thread whose header has its sparkline and whose context has grown past the error setting, with Compact above the composer.
