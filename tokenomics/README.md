@@ -2,7 +2,7 @@
 
 # Tokenomics
 
-See what your threads cost in tokens and time, each thread's goal and its progress, how turns compared with forecasts, and if limits last.
+See what threads cost in tokens and time, each thread's goal, turns against forecasts, if limits last, and be asked before costly turns.
 
 Source: [`bb-plugin-tokenomics`](https://github.com/danielbachhuber/bb-plugins/tree/main/bb-plugin-tokenomics)
 
@@ -239,6 +239,12 @@ With Claude's forecasts, the line under each turn shows each number against its 
 A turn's card with its forecast: calls, tokens, and time against their ranges, and Claude's note.
 
 ![Forecast card open](page--forecast-card-open.png)
+
+### Forecast subagents card open
+
+A turn that ran subagents: its own calls and its subagents' calls each against their range, the tokens against the two together, the subagent calls added partway through, and how much of the tokens were the subagents'.
+
+![Forecast subagents card open](page--forecast-subagents-card-open.png)
 
 ### Forecast strip states
 
