@@ -44,6 +44,12 @@ The first sync, still reaching back two years; the charts fill in as pages arriv
 
 ![First sync](page--first-sync.png)
 
+### Loading
+
+While the first load is on its way: each section's heading, with a grey block where its numbers and charts go.
+
+![Loading](page--loading.png)
+
 ### No repository
 
 Before a repository is set.
